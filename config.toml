@@ -1,0 +1,8 @@
+baseURL = "http://neni.dev/zombisite"
+title = "Zombisite"
+theme = "zombicide_fantasy"
+defaultContentLanguage = "pt-br"
+
+[params]
+repo = "http://github.com/neninja/zombisite"
+faviconEmoji = "🔥"

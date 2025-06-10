@@ -1,0 +1,74 @@
+@import './themes.scss';
+@import './_helpers.scss';
+@import './fonts.scss';
+
+body {
+  font-family: "ArekLatin"; 
+  line-height: 1.5em;
+  padding: 0 2%;
+  margin: auto;
+}
+
+@media (min-width:576px) {
+  body {
+    max-width: 540px
+  }
+}
+
+@media (min-width:768px) {
+  body {
+    max-width: 720px
+  }
+}
+
+@media (min-width:992px) {
+  body {
+    max-width: 960px
+  }
+}
+
+@media (min-width:1200px) {
+  body {
+    max-width: 1140px
+  }
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+pre {
+  color: v("text-color-pre");
+  background: v("background-color-pre") !important;
+  padding: 1rem;
+}
+
+blockquote {
+  border-left: 0.25rem solid var(--accent-color);
+  padding-left: 1rem;
+  margin-left: 0;
+}
+
+a {
+  color: v("link-color");
+}
+
+header.menu {
+  margin: 1.2rem 0;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
+time.datepost {
+  font-size: 0.8rem;
+  font-style: italic;
+}

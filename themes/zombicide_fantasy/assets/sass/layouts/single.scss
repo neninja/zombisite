@@ -1,0 +1,68 @@
+body {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/zombisite/imgs/papel-bg-claro.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+
+  color: #393628;
+}
+
+
+::selection, ::-moz-selection {
+  color: white;
+  background: #a13127;
+}
+
+ul.tags {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+ul.meta {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 0.5rem;
+}
+
+.container-singlepost-title {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin: 0.2rem 0 0.5rem 0;
+
+    h1 {
+        margin: 0;
+    }
+
+    a.fixme {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+
+        ::before {
+            content: '// '
+        }
+    }
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+.highlight pre {
+    overflow: scroll;
+}

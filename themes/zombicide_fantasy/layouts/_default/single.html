@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main>
+    <header class="">
+        <div class="container-singlepost-title">
+            <h1 class="">{{- .Title -}}</h1> 
+            {{if .Site.Params.Repo}}
+            <a class="fixme" href="{{.Site.Params.Repo}}/edit/main/content/{{replace .File.Path "\\" "/"}}"><code>fixme</code></a>
+            {{end}}
+        </div>
+
+        {{ with .Params.tags }}
+        <ul class="tags">
+            {{ range . }}
+            <li>
+                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="">
+                    #{{- . -}}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </header>
+    <article>
+        {{- .Content -}}
+    </article>
+</main>
+{{ end }}
