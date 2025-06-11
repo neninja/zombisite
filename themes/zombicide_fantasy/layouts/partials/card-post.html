@@ -4,4 +4,14 @@
         {{ .Title }}
         </a>
     </h1>
+
+    <ul class="tags">
+        {{ range .Params.tags }}
+        <li>
+            <a href="{{ "/zombisite/tags/" | relLangURL }}{{ . | urlize }}.html" class="">
+                #{{- . -}}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
 </article>

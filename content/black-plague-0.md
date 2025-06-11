@@ -1,7 +1,6 @@
 +++
 title = "Tutorial: Dança macabra"
-material = ["black-plague"]
-tags = ["quests"]
+tags = ["quests", "black-plague"]
 draft = false
 quest_difficult = "easy"
 quest_survivors = 4
@@ -13,6 +12,8 @@ quest_minutes = 45
 *O mago que está com a gente é um ótimo exemplo. Ele era muito rico, poderoso e influente. Mas agora é um de nós, sobrevivendo por um triz. Ele pode conjurar um círculo mágico que nos levará para outro lugar. É melhor fugir e lutar do que ficar aqui e ser trucidado. Mas deve haver algumas almas que precisamos salvar, e bem que poderíamos ter umas armas melhores. Vamos defender este local até o último segundo. Ele é mesmo um bom homem... não anda com o nariz empinado.*
 
 > Mapas necessários: 4V e 9R.
+
+![mapa](./black-plague-0-map.png)
 
 ## Objetivos
 

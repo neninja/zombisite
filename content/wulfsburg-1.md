@@ -1,7 +1,6 @@
 +++
 title = "Missão 1: Bem-vindo a wulfsburg"
-material = ["black-plague", "wulfsburg"]
-tags = ["quests"]
+tags = ["quests", "black-plague", "wulfsburg"]
 draft = false
 quest_difficult = "easy"
 quest_survivors = 6
@@ -15,6 +14,8 @@ Wulfsburg agora é um refúgio de Necromantes, habitada por sobreviventes assust
 > Materiais necessários: Zombicide: Black Plague, Wulfsburg.
 
 > Mapas necessários: 1V, 3V, 5R, 6V, 8V e 10V.
+
+![mapa](./wulfsburg-1-map.png)
 
 ## Objetivos
 Cumpra os objetivos nesta ordem para vencer a partida:

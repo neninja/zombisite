@@ -1,7 +1,6 @@
 +++
 title = "B1: The Dragonfiends"
-material = ["black-plague"]
-tags = ["quests"]
+tags = ["quests", "black-plague"]
 draft = false
 quest_difficult = "medium"
 quest_survivors = 4
@@ -15,6 +14,8 @@ quest_minutes = 90
 > Material needed: Zombicide: Black Plague.
 
 > Tiles needed: 1R, 2R, 5V, 7V, 8V & 9V.
+
+![mapa](./zombicide-b1-map.png)
 
 ## O bjectives
 - Wipe the cabal.

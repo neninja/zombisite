@@ -1,7 +1,6 @@
 +++
 title = "Missão 5: Abrigo pálido"
-material = ["green-horde", "friends-and-foes"]
-tags = ["quests"]
+tags = ["quests", "green-horde", "friends-and-foes"]
 draft = false
 quest_difficult = "medium"
 quest_survivors = 6
@@ -15,6 +14,8 @@ Este vilarejo em uma estrada comercial é nosso último recurso. Já estivemos a
 > Material necessário: Zombicide: Green Horde, Friends And Foes.
 
 > Mapas necessários: 17R, 18R, 20V, 21R, 22R e 23R.
+
+![mapa](./friends-and-foes-5-map.png)
 
 ## Objetivos
 Chegue até a Zona de Entrada azul e/ou verde com todos os Sobreviventes iniciais. Qualquer Sobrevivente pode escapar por qualquer uma dessas Zonas no final de seu turno, desde que não haja Zumbis nela.

@@ -1,7 +1,6 @@
 +++
 title = "Missão 1: A grande caçada"
-material = ["black-plague"]
-tags = ["quests"]
+tags = ["quests", "black-plague"]
 draft = false
 quest_difficult = "easy"
 quest_survivors = 6
@@ -13,6 +12,8 @@ quest_minutes = 60
 *Vamos à caça!*
 
 > Mapas necessários: 1V, 2R, 8V e 9V.
+
+![mapa](./black-plague-1-map.png)
 
 ## Objetivos
 Cumpra os objetivos a seguir em qualquer ordem para vencer a partida:
