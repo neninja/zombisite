@@ -2,7 +2,11 @@ baseURL = "http://neni.dev/zombisite"
 title = "Zombisite"
 theme = "zombicide_fantasy"
 defaultContentLanguage = "pt-br"
+uglyURLs = true
 
 [params]
 repo = "http://github.com/neninja/zombisite"
 faviconEmoji = "🔥"
+
+[taxonomies]
+  tag = "tags"

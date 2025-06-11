@@ -1,7 +1,6 @@
 +++
 title = "Missão 1: A peste rastejante"
-material = ["black-plague", "friends-and-foes"]
-tags = ["quests"]
+tags = ["quests", "black-plague", "friends-and-foes"]
 draft = false
 quest_difficult = "medium"
 quest_survivors = 6
@@ -15,6 +14,8 @@ Tarde demais. Tudo que podemos fazer agora é colocar nossos anfitriões para de
 > Material necessário: Zombicide: Black Plague, Friends And Foes.
 
 > Mapas necessários: 1V, 21V, 22V, 23V, 24V e 25R.
+
+![mapa](./black-plague-1-map.png)
 
 ## Objetivos
 

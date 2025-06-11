@@ -2,6 +2,10 @@
 @import './_helpers.scss';
 @import './fonts.scss';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "ArekLatin"; 
   line-height: 1.5em;
@@ -71,4 +75,11 @@ header.menu {
 time.datepost {
   font-size: 0.8rem;
   font-style: italic;
+}
+
+ul.tags {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
 }

@@ -1,8 +1,7 @@
 +++
 title = "B1: The Dragonfiends"
-material = ["black-plague"]
-tags = ["quests"]
-draft = false
+tags = ["quests", "black-plague"]
+draft = true
 quest_difficult = "medium"
 quest_survivors = 4
 quest_minutes = 90
@@ -12,15 +11,15 @@ quest_minutes = 90
 
 *You can run, but you can’t hide, fiends!*
 
-> Material needed: Zombicide: Black Plague.
-
 > Tiles needed: 1R, 2R, 5V, 7V, 8V & 9V.
 
-## O bjectives
+![mapa](./zombicide-b1-map.png)
+
+## Objectives
 - Wipe the cabal.
 - Take all the Objectives.
 
-## Especial Rules
+## Special Rules
 - Setting
     - Put the blue Objective randomly among the red Objectives, face down.
     - Shuffle the green Objective randomly with two red Objectives, and place them face down beside the board. This is the trap pile.
