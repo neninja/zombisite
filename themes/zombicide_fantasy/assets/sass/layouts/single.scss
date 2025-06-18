@@ -1,29 +1,3 @@
-body {
-  position: relative;
-
-  &::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/zombisite/imgs/papel-bg-claro.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
-  }
-
-  color: #393628;
-}
-
-
-::selection, ::-moz-selection {
-  color: white;
-  background: #a13127;
-}
-
 ul.meta {
   padding: 0;
   list-style: none;
