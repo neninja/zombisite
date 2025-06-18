@@ -1,6 +1,6 @@
 +++
 title = "Campanha: Lugares de interesse"
-tags = ["quests", "black-plague", "wulfsburg"]
+tags = ["campaigns", "black-plague", "wulfsburg"]
 draft = false
 quest_difficult = "very hard"
 quest_survivors = 6
@@ -44,7 +44,6 @@ Any Survivor reaching the Red Level at the end of a successful Quest may begin t
 ![mapa](./places-of-interest-quest1.png)
 
 #### Objectives
-
 1. Enter the temple and purify it. You’ll need to find either the blue or green key to enter. The temple is purified as soon as there are no Zombies in the whole building containing the fire token.
 2. Perform the ritual. Go through the Zone containing the
 fire token until you receive the Fire Blessing (see Special Rules).
@@ -59,7 +58,6 @@ fire token until you receive the Fire Blessing (see Special Rules).
 effect doesn’t affect its creator!
 
 ### Quest 2: Skulls & bones tavern
-
 - Very hard
 - 4+ sobreviventes
 - 180 minutos
@@ -85,6 +83,9 @@ effect doesn’t affect its creator!
 - Rewards! Survivors who exit the place without any Wounds receive a single-use bonus: Instant Regeneration. A Survivor may use it anytime during his Activation (but not during an Action’s resolution) to fully heal all his Wounds.
 
 ### Quest 3: All along the belfry
+- Very hard
+- 4 sobreviventez
+- 180 minutos
 
 *It is sometimes hard to tell when a spectacular action is heroic, stupid, or both. That’s the case here: someone, somehow, managed to trap several Abominations in the town’s belfry. We’ve already heard about single Abominations trapped in a closed place, but several? This is unbelievable.*
 
@@ -97,11 +98,9 @@ effect doesn’t affect its creator!
 ![mapa](./places-of-interest-quest3.png)
 
 #### Objectives
-
 Kill the Abominations. You win the game as soon as the Abomination deck is exhausted (see Special Rules) and there is no Abomination on the board.
 
 #### Special Rules
-
 - Setting.
     - Put the blue Objective randomly among the red Objectives, face down.
     - Set apart all the Spawn Cards for at least 3 extra Abominations (Abominalpha, Abominarat, etc.). These cards constitute the Abomination deck. The Spawn Cards for standard Abominations stay in the Zombie deck.
@@ -110,7 +109,6 @@ Kill the Abominations. You win the game as soon as the Abomination deck is exhau
 - Rewards! Survivors who killed an Abomination receive a single-use bonus at the end of the Quest: Ironclad Charm. A Survivor may use it at anytime (but not during an Action’s resolution) to get the Ironclad Skill until the next Ending Phase
 
 ### Quest 4: Fortress
-
 - Hard
 - 4+ sobreviventes
 - 180 minutos
@@ -139,7 +137,6 @@ Kill what lies behind the magic barriers. You win as soon as both magical barrie
 - Rewards! Any Survivor who opened a Vault door in a Street Zone receives a magic barrier token at the end of the Quest. This is a single-use bonus: the Survivor can spend it anytime (but not during an Action’s resolution) to place the magic barrier token on a Spawn Zone within Line Of Sight. Any Zombie card drawn for the trapped Spawn Zone is put under the token instead, face down and without revealing it. As soon as the card amount reaches two, interrupt the Spawn Step. Reveal the hidden Zombie cards one by one, spawning the corresponding Zombies for each of them. Double Spawn cards apply to the current Spawn Zone only. Then, resume the Spawn Step.
 
 ### Quest 5: The dark anchor
-
 - Very Hard
 - 4+ sobreviventes
 - 180 minutos
