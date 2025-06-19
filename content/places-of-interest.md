@@ -9,14 +9,18 @@ quest_minutes = 60
 
 > Créditos pela tradução: Gustavo Lopes
 
-*Some places in the region have been deserted since the zombies came. Nobody goes there, ever. Most of the time, these places draw too much attention from the necromancers or have become the houses of angry monsters or are heavily barricaded. What keeps ordinary people at bay is terribly appealing to survivors. So it’s time to take a tour of these “places of interest” and see what we can find there: hidden treasures, a good zombicide, both, and tons of fun. Ready?*
+*Alguns lugares na região ficaram desertos desde que os zumbis vieram. Ninguém vai até lá, nunca. na maior parte do tepo estes lugares atraem muita atenção dos necromantes ou se tornaram moradia para monstros furiosos ou estão fortemente barricados. Aquilo que mantèm as pessoas comuns longe é terrivelmente tentador para os sobreviventes. portanto chegou a hora de fazer um tour por estes "lugares de interesse" e ver o que podemos encontrar por lá: tesouros escondidos, um bom zombicídio, ou ambos, e muita diversão. Preparado?*
 
 ## Regras da campanha
 
-### From place to place
-Chose a Quest to begin with. The Temple of Fire is a good start, as a victory eases the following Quest! Quests are played in any order the players choose. The same Quest can’t be played twice in a row, though. The campaign ends after the players have won all five Quests. Places Of Interest is an expert-level campaign. You will face a real challenge and hours of team-oriented fun. Will you be one of the happy few to boast of having visited all the places depicted in this campaign and survived?
+### De um lugar para outro
+Escolha uma Missão para começar. O *Templo do Fogo* é um bom começo, pois uma vitória facilita a próxima Missão!
 
-> Places Of Interest is a five-Quest campaign created for Zombicide: Black Plague’s 2015 Kickstarter. It was designed with all impending stretch goals, so having extra Zombie miniatures (including extra Abominations) is recommended.
+As Missões podem ser jogadas em qualquer ordem, entretan a mesma Missão não pode ser jogada duas vezes seguidas.
+
+A campanha acaba assim que os jogadores vencerem as cinco diferentes Missões. Lugares de Interesse é uma campanha nível expert. Você enfrentará um desafio real e horas de diversão cooperativa. Será você um dos pooucos felizardos à visitar todos os locais descritos na campanha e sobreviver?
+
+> *Lugares de Interesse* é uma campanha de 5 Missões criada para o Kickstarter do *Zombicide: Black Plague* em 2015. Foi desenhada incluindo todos os extras da campanha, portanto é recomendado possuir Zumbis extras (incluindo Abominações extras).
 
 ### Quest rewards
 Each Quest gives special rewards in the form of single-use bonuses. The Quest describes its related game effect. A Survivor can save the use of these bonuses from one Quest to the next until the end of the campaign, but once it’s spent, it’s spent. They can be earned back by replaying their related Quest.
