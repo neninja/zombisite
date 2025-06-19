@@ -22,15 +22,15 @@ A campanha acaba assim que os jogadores vencerem as cinco diferentes Missões. L
 
 > *Lugares de Interesse* é uma campanha de 5 Missões criada para o Kickstarter do *Zombicide: Black Plague* em 2015. Foi desenhada incluindo todos os extras da campanha, portanto é recomendado possuir Zumbis extras (incluindo Abominações extras).
 
-### Quest rewards
-Each Quest gives special rewards in the form of single-use bonuses. The Quest describes its related game effect. A Survivor can save the use of these bonuses from one Quest to the next until the end of the campaign, but once it’s spent, it’s spent. They can be earned back by replaying their related Quest.
+### Recompensas da missão
+Cada missão dá direito a recompensas especiais na forma de bônus para serem usados uma única vez. A Missão descreve seu efeito no jogo. O sobrevivente pode guardar estes bônus de uma Missão para outra até o fim da campanha, porém uma vez utilizado, ele é consumido. Estes bônus podem ser ganhados de volta ao jogar novamente a Missão relacionada.
 
-### Red reward
-Any Survivor reaching the Red Level at the end of a successful Quest may begin the next with a Vault weapon of the player’s choice. If there are not enough Vault weapons to equip all eligible Survivors, the players’ team chooses the way the Vault weapons are distributed among Survivors.
+### Recompensa vermelha
+Qualquer sobrevivente que alcançar o Nível Vermelho ao fim de uma Missão terminada com sucesso pode começar a próxima com uma arma de Cripta da escolha do jogador. Se não houver mais armas de Cripta para todos os Sobreviventes, os jogadores podem escolher distribuir Armas de Cripta entre os Sobreviventes.
 
-> What if…
-> - A Survivor dies? Survivors are hard to kill. The Sur- vivor begins the next quest with a Wound.
-> - A Survivor is wounded by the end of a Quest? It’s just a flesh wound! The Survivor is fully healed.
+> Mas e se...
+> - Um Sobrevivente morreu? Sobreviventes são difíceis de matar. O sobrevivente começa a próxima Missão com um Ferimento.
+> - Um Sobrevivente foi ferito ao final de uma Missão? É apenas um ferimento superficial. O Sobrevivente é completamente curado.
 
 ## Missões
 
