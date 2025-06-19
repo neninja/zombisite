@@ -7,58 +7,38 @@ html {
 }
 
 body {
-  position: relative;
+  min-height: 100vh;
+  background-image: url('/zombisite/imgs/papel-bg-claro.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-  &::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/zombisite/imgs/papel-bg-claro.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
-  }
-
-  color: #393628;
-}
-
-::selection, ::-moz-selection {
-  color: white;
-  background: #a13127;
-}
-
-
-body {
-  font-family: "ArekLatin"; 
-  line-height: 1.5em;
   padding: 0 2%;
   margin: auto;
-}
 
-@media (min-width:576px) {
-  body {
+  font-family: "ArekLatin"; 
+  color: #393628;
+  line-height: 1.5em;
+
+  ::selection, ::-moz-selection {
+    color: white;
+    background: #a13127;
+  }
+
+  @media (min-width:576px) {
     max-width: 540px
   }
-}
 
-@media (min-width:768px) {
-  body {
+  @media (min-width:768px) {
     max-width: 720px
   }
-}
 
-@media (min-width:992px) {
-  body {
+  @media (min-width:992px) {
     max-width: 960px
   }
-}
 
-@media (min-width:1200px) {
-  body {
+  @media (min-width:1200px) {
     max-width: 1140px
   }
 }
