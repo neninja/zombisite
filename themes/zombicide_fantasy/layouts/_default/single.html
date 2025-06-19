@@ -12,7 +12,7 @@
         <ul class="tags">
             {{ range . }}
             <li>
-                <a href="{{absLangURL "tags/" }}.html">
+                <a href="{{absLangURL "tags/" }}{{.}}.html">
                     #{{- . -}}
                 </a>
             </li>
