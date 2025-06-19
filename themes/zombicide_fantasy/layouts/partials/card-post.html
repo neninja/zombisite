@@ -9,7 +9,7 @@
     <ul class="tags">
         {{ range .Params.tags }}
         <li>
-            <a href="{{ "/zombisite/tags/" | relLangURL }}{{ . | urlize }}.html" class="">
+            <a href="{{absLangURL "tags/" }}.html">
                 #{{- . -}}
             </a>
         </li>
