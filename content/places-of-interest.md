@@ -1,6 +1,6 @@
 +++
 title = "Campanha: Lugares de interesse"
-tags = ["campaigns", "black-plague", "wulfsburg"]
+tags = ["campaigns", "black-plague"]
 draft = false
 quest_difficult = "very hard"
 quest_survivors = 6
@@ -34,133 +34,131 @@ Qualquer sobrevivente que alcançar o Nível Vermelho ao fim de uma Missão term
 
 ## Missões
 
-### Quest 1: The temple of fire
-- Medium
+### Missão 1: O templo do fogo
+- Médio
 - 4 sobreviventes
 - 180 minutos
 
-*A fire god was worshipped in this remote village. I remember rumors saying that its priests could breathe fire. I didn’t meet any, and it’s too bad; that could have been very useful. Against an Abomination, for example.*
+*Um Deus do fogo era adorado neste vilarejo remoto. Eu me lembro de rumores dizendo que seus sacerdotes conseguiam cuspir fogo. Eu não conheci nenhum, o que é uma pena; aquilo poderia ser muito ítil, contra uma Abominação, por exemplo.*
 
-*Unfortunately, the temple is closed and locked. Let’s find the key and cleanse this place—I know a ritual. We don’t want to meet any fire breathing zombies, do we?*
+*Infelizmente, o templo está fechado e trancado. Vamos procurar a chave e limpar este lugar - Eu conheço um ritual. Afinal, nós não queremos encontrar nenhum zumbi cuspidor de fogo, queremos?*
 
-> Tiles needed: 1V, 3V, 4R, 6V, 8R & 9V.
+> Mapas necessários: 1V, 3V, 4R, 6V, 8R & 9V.
 
 ![mapa](./places-of-interest-quest1.png)
 
-#### Objectives
-1. Enter the temple and purify it. You’ll need to find either the blue or green key to enter. The temple is purified as soon as there are no Zombies in the whole building containing the fire token.
-2. Perform the ritual. Go through the Zone containing the
-fire token until you receive the Fire Blessing (see Special Rules).
-3. Escape. Reach the Exit Zone with all starting Survivors. Any Survivor may escape through this Zone at the end of his Activation, as long as there are no Zombies in it. 
+#### Objetivos
+1. **Entre no templo e o purifique**. Você precisa encontrar uma chave azul ou uma chave verde para entrar. O templo será purificado assim que não houver Zumbis em todo o prédio contendo a ficha de fogo.
+2. **Faça o ritual.** Passe pela Zona contendo a ficha de fogo até receber a Benção de Fogo (veja Regras Especiais).
+3. **Fuja.** Chegue até a Zona de Saída com todos os Sobreviventes. Qualquer Sobrevivente pode escapar por esta Zona no final de seu turno desde que não haja Zumbis nela. 
 
-#### Special Rules
-- Setting. Put the blue and green Objectives randomly among the red Objectives, face down.
-- Survivor trinkets. Each Objective gives 5 experience points to the Survivor who takes it.
-- Closed and locked. The blue door cannot be opened until the blue Objective has been taken. The green door cannot be opened until the green Objective has been taken.
-- The fire god is angry. Any Actor starting his Activation in the fire token Zone triggers a Dragon Fire effect in the Zone. Zom- bies eliminated this way don’t grant any experience points.
-- The Fire Blessing. After the temple has been purified, roll a die each time a Survivor goes through the fire token’s Zone. On an even result, nothing happens. On an odd result, the Survivor receives the Fire Blessing as a single-use bonus. A Survivor can’t have more than one Fire Blessing at a time. The Survivor may spend an Action to use it: it creates a Dragon Fire effect at Range 0-1 and within Line of Sight of the Survivor. In addition, this Dragon Fire
-effect doesn’t affect its creator!
+#### Regras especiais
+- **Preparação.** Coloque os Objetivos azul e verde aleatoriamente entre os Objetivos vermelhos, com a face virada para baixo.
+- **Souvenirs para os Sobreviventes.** Cada Objetivo concede 5 pontos de experiência para o Sobrevivente que o pegar.
+- **Fechado e trancado.** A porta azul não pode ser aberta até que o Objetivo azul seja pego. Aporta verde não pode ser aberta até que o Objetivo verde seja pego.
+- **O deus do fogo está nervoso.** Qualquer Agente que começar sua Ativação na Zona com a ficha de fogo ativa um efeito de Fogo de Dragão na zona. Zumbis eliminados por este método não garantem pontos de experiência.
+- **A benção de Fogo.** Depois que o templo for purificado, role um dado sempre que um Sobrevivente passaar pela Zona com a ficha de fogo. Caso o resultado seja Par, nada acontece. Caso o resultado seja ímpar, o Sobrevivente recebe a Benção de Fogo como bônus para uso único. Um sobrevivente não pode ter mais do que uma Benção do Fogo por vez. O Sobrevivente pode gastar uma Ação para usá-la> ela cria um efeito de Fogo de Dragão na Distância 0-1 e dentro da Linha de Visão do Sobrevivente. Adicionalmente, este Fogo de Dragão não ageta seu criador!
 
-### Quest 2: Skulls & bones tavern
-- Very hard
+### Missão 2: taverna crânios & ossos
+- Muito difícil
 - 4+ sobreviventes
 - 180 minutos
 
-*Just the name of this place is enough to pay a visit. If it wasn’t a necromancer’s lair before the zombies, it is now. We scouted the area and found that a ritual is being performed. It can’t be good. We must stop this.*
+*Apenas o nome do local é suficiente para que façamos uma visita. Se não era covil de um necromante antes dos zumbis, agora é. Nós exploramos a àrea e descobrimos que um ritual está em curso. Isso não pode ser bom. Nó temos que por um fim nisso.*
 
-> Tiles needed: 4V, 5V, 6R, 7R, 8R & 9R.
+> Mapas necessários: 4V, 5V, 6R, 7R, 8R & 9R.
 
 ![mapa](./places-of-interest-quest2.png)
 
-#### Objectives
-1. Enter the Skulls & Bones tavern and end both rituals.
-2. Escape. Reach the Exit Zone with all starting Survivors. Any Survivor may escape through this Zone at the end of his Activation, as long as there are no Zombies in it.
+#### Objetivos
+1. **Entre na taverna Crânios & Ossos e pare ambos os rituais.**
+2. **Fuja.** Chegue até a Zona de Saída com todos os Sobreviventes. Qualquer sobrevivente pode escapar por esta Zona no final de seu turno desde que não haja Zumbis nela.
 
-#### Special Rules
-- Setting.
-    - Put the green Objective randomly among the red Objectives, face down.
-    - Set apart all the Spawn Cards for at least 3 extra Abominations (Abominalpha, Abominarat, etc.). These cards constitute the Abomination deck. The Spawn Cards for standard Abominations stay in the Zombie deck.
-- Unexpected and welcome. Each Objective gives 5 experience points to the Survivor who takes it.
-- Necromancer’s reinforcements. The blue Spawn Zone is inactive until the blue door is opened. The blue door can be opened like a standard door. It also opens by itself the first time a Necromancer spawns on the board.
-- Closed backdoor. The green door cannot be opened until the green Objective has been taken.
-- It’s not a ritual, it’s a TRAP! When a Survivor enters a magic barrier Zone, remove the token and draw a card from the Abomination deck. Spawn the corresponding Zombies in the disrupting Survivor’s Zone.
-- Rewards! Survivors who exit the place without any Wounds receive a single-use bonus: Instant Regeneration. A Survivor may use it anytime during his Activation (but not during an Action’s resolution) to fully heal all his Wounds.
+#### Regras especiais
+- **Preparação.**
+    - Coloque o Objetivo verde aleatoriamente entre os Objetivos vermelhos, com a face virada para baixo.
+    - Separe todas as Cartas de Entrada para no mínimo 3 Abominações extras (Abominalpha, Abominarat, etc.). Estas cartas constituem o baralho de Abominações. As cartas de Entrada para Abominações normais se mantem no baralho de Zumbis.
+- **Inesperado e bem-vindo.** Cada Objetivo concede 5 pontos de experiência para o Sobrevivente que o pegar.
+- **Reforços do Necromante.** A ficha de entrada de Zumbis azul se mantèm inativa atpe que a porta azul seja aberta. A porta azul pode ser aberta como uma porta comum. Ela tambpem se abre sozinha na primeira vez que um Necromante entrar no tabuleiro.
+- **Porta dos fundos fechada.** A porta verde não pode ser aberta até que o Objetivo verde seja pego.
+- **Não é um ritual, é uma armadilha.** Quando um Sobrevivente entrar na Zona de barreira mágica, remova a ficha e sorteie uma carta do baralho de Abominações. Faça a entrada de Zumbis correspondente na Zona de sobrevivente que desativou a barreira.
+- **Recompensas.** Sobreviventes que fugirem sem nenhum Ferimento recebem um bônus para uso único: Regeneração Instantânea. Um Sobrevivente pode usá-lo a qualquer momento durante sua Ativação (mas não durante a resolução de uma Ação) para recuperar todos os seus Ferimentos.
 
-### Quest 3: All along the belfry
-- Very hard
-- 4 sobreviventez
+### Missão 3: Ao longo do campanário
+- Muito difícil
+- 4 sobreviventes
 - 180 minutos
 
-*It is sometimes hard to tell when a spectacular action is heroic, stupid, or both. That’s the case here: someone, somehow, managed to trap several Abominations in the town’s belfry. We’ve already heard about single Abominations trapped in a closed place, but several? This is unbelievable.*
+*As vezes é difícil dizer quando uma atitude é heróica, estúpida, ou ambos. Este é o caso aqui, alguém de alguma forma, conseguiu prender várias Abominações no campanário da cidade. Nós já ouvimos falar de uma Abominação presa em um local fechado, mas várias? Isso é inacreditável.*
 
-*It’s also unfortunate, as necromancers keep coming with their hordes to free these beasts. This is getting old, and we need to stop it.*
+*Isso também é lamentável, já que necromantes continuam aparecendo com suas hordas para libertar essas bestas. Isto está ficando chato, e nós temos que dar um fim nisto.*
 
-*So today, we zombicide everything. Just don’t think too much about the Abominations. Hey, I think I just found the way to be a hero!*
+*Portanto, hoje nós vamos fazer um zumbicídio. Apenas não pense demais nas Abominações. Hey, eu acho que descobri uma forma de ser o herói!*
 
-> Tiles needed: 1R, 2R, 3V, 4V, 6R & 7V
+> Mapas necessários: 1R, 2R, 3V, 4V, 6R & 7V
 
 ![mapa](./places-of-interest-quest3.png)
 
-#### Objectives
-Kill the Abominations. You win the game as soon as the Abomination deck is exhausted (see Special Rules) and there is no Abomination on the board.
+#### Objetivos
+**Mate todas as Abominações.** Você vence o jogo assim que o baralho de Abominações estiver esgotado (ver Regras Especiais) e não houver Abominações no tabuleiro.
 
-#### Special Rules
-- Setting.
-    - Put the blue Objective randomly among the red Objectives, face down.
-    - Set apart all the Spawn Cards for at least 3 extra Abominations (Abominalpha, Abominarat, etc.). These cards constitute the Abomination deck. The Spawn Cards for standard Abominations stay in the Zombie deck.
-- It looks funny! Each Objective gives 5 experience points to the Survivor who takes it.
-- Command word for the magic barrier ritual. DO NOT READ IT OUT… Too late. When the blue Objective has been taken, the magic barrier Zone starts spawning Abominations. Use it like a regular Spawn Zone, but draw from the Abomination deck instead. This deck is not reshuffled when exhausted.
-- Rewards! Survivors who killed an Abomination receive a single-use bonus at the end of the Quest: Ironclad Charm. A Survivor may use it at anytime (but not during an Action’s resolution) to get the Ironclad Skill until the next Ending Phase
+#### Regras especiais
+- **Preparação.**
+    - Coloque o Objetivo azul aleatoriamente entre os Objetivos vermelhos, com a face virada para baixo.
+    - Separe todas as Cartas de Entrada para no mínimo 3 Abominações extras (Abominalpha, Abominarat, etc.). Estas cartas constituem o bvaralho de Abominações. As Cartas de Entrada para Abominações normais se mantem no baralho de Zumbis.
+- **Isto parece divertido!** Cada Objetivo concede 5 pontos de experiência para o Sobrevivente que o pegou.
+- **Palavras chave para o ritual da barreira mágica.** NÃO LEIA... Tarde demais. Quando o Objetivo azul for pego, a Zona da barreira mágica começa a invocar Abominações. Use-a como uma Zona de Entrada de Zumbis regular, mas sorteie do baralho de Abominações. O baralho não é reembaralhado quando acabarem as cartas.
+- **Recompensas!** Sobreviventes que mataram uma Abominação recebem um bônus para uso único no fim da Missão> Amuleto Encouraçado. Um Sobrevivente pode usá-lo a qualquer momento (mas não durante a resolução de uma Ação) para receber a habilidade Encouraçado até o fim da próxima Fase Final.
 
-### Quest 4: Fortress
-- Hard
+### Missão 4: Fortaleza
+- Difícil
 - 4+ sobreviventes
 - 180 minutos
 
-*We spotted this fortress from miles away. Its great entrance is barricaded, and someone managed to pin a warning on the wooden door: “Enter and die”. Charming.*
+*Nós avistamos esta fortaleza a quilometros de distância. Sua entrada gigantesca está barricada, e alguém conseguiu pregar um aviso na porta de madeira: "Entre e morra". Encantador.*
 
-*Who closed this place? What’s inside? Are we curious and stupid enough to get in and find out by ourselves? I know the answer to that one: yes, we are.*
+*Quem selou este lugar? O que tem dentro? Somos curiosos e estúpidos o suficiente para entrar e descobrir por nós mesmos? Eu tenho uma resposta: sim, nós somos.*
 
-*A constant humming and sulfur stench, you say? Don’t worry so much. Everything will be okay, I’m sure.*
+*Um zumbido constante e cheiro de enxogre você diz? Não se preocupe. Tudo vai ficar bem. Eu tenho certeza.*
 
-> Tiles needed: 2V, 5V, 8V & 9R.
+> Mapas necessários: 2V, 5V, 8V & 9R.
 
 ![mapa](./places-of-interest-quest4.png)
 
-#### Objectives
-Kill what lies behind the magic barriers. You win as soon as both magical barriers are gone and there are no Zombies in the Street Zones.
+#### Objetivos
+**Mate aquilo que está atrás das barreiras mágicas.** Você vence assim que ambas as barreiras mágicas forem destruídas e não houver mais Zumbis nas Zonas de Rua.
 
-#### Special Rules
-- Fountains of Death. During the Spawn Step, don’t look at the Zombie cards drawn for the Spawn Zones located within the magic barriers. Store them under their respective magic barrier instead.
-- The humming stopped! When a Survivor opens a violet Vault door:
-    - Remove the magic barrier token in the street leading to the violet Vault door.
-    - Reveal the Spawn Cards stacked on the Spawn Zone, one after the other, and set the corresponding Zombies. Double Spawn cards apply to this Spawn Zone.
-- Necromancers passing by. Necromancers are familiar with the fortress and can use the Vaults doors. Any Necromancer activating in a Zone holding a Vault door spends its Action to open it, ignoring any Survivors standing in the same Zone.
-- Missing keys. Standard doors cannot be opened. The blue door and the Vault’s doors can be opened like standard doors.
-- It’s a crypt! Both Vaults are connected by an open door.
-- Rewards! Any Survivor who opened a Vault door in a Street Zone receives a magic barrier token at the end of the Quest. This is a single-use bonus: the Survivor can spend it anytime (but not during an Action’s resolution) to place the magic barrier token on a Spawn Zone within Line Of Sight. Any Zombie card drawn for the trapped Spawn Zone is put under the token instead, face down and without revealing it. As soon as the card amount reaches two, interrupt the Spawn Step. Reveal the hidden Zombie cards one by one, spawning the corresponding Zombies for each of them. Double Spawn cards apply to the current Spawn Zone only. Then, resume the Spawn Step.
+#### Regras especiais
+- **Fontes de Morte.** Durante a Etapa de Entrada de Zumbis, não olhe as cartas sorteadas para as Zonas de Entrada de Zumbis dentro das barreiras mágicas. Guarde-as embaixo de suas respectivas barreiras mágicas.
+- **O zumbido parou!** Quando um Sobrevivente abrir a porta de Cripta violeta:
+    - Remova a ficha de barreira mágica da rua correspondente à porta de Cripta violeta.
+    - Revele as cartas de Entrada de Zumbis empilhadas na Zona de Entrada de Zumbis, uma após a outra, e coloque os Zumbis correspondentes. Cartas de Entrada Dupla se aplicam à esta Zona.
+- **Necromantes passando.** Necromantes estão familiarizados com a fortaleza e podem usar as portas de Cripta. Qualquer Necromante que fizer uma ativação em uma Zona com uma porta de Cripta gasta uma Ação para abri-la, ignorando qualquer Sobrevivente na mesma Zona.
+- **Chaves perdidas.** Portas padrão não podem ser abertas. A porta azul e as portas de Cripta podem ser abertas como portas comuns.
+- **É uma cripta!** Ambas as Criptas estão ligadas por uma porta aberta.
+- **Recompensas!** Qualquer Sobrevivente que abriu uma porta de Cripta a partir de uma Zona de Rua recebe a ficha de barreira mágica ao fim da Missão. Este é um bônus para uso único: o Sobrevivente pode usá-lo a qualquer momento (mas não durante a resolução de uma Ação) para colocar uma ficha de barreira mágica em uma Zona de Entrada de Zumbis dentro de sua Linha de Visão. Qualquer carta de Zumbi sorteada para a Zona de Entrada de Zumbis selada é colocada embaixo da ficha, com a face virada para baixo e sem revelá-la. Assim que o total de cartas chegar a dois, interrompa a Etapa de Entrada de Zumbis. Revele as cartas de Entrada de Zumbi uma por uma, fazendo a entrada correspondente de Zumbis para cada uma delas. Entradas Duplas se aplicam para apenas a Zona de Entrada de Zumbis atual. Depois, continue a Etapa de Entrada de Zumbis.
 
-### Quest 5: The dark anchor
-- Very Hard
+### Missão 5: A âncora negra
+- Muito difícil
 - 4+ sobreviventes
 - 180 minutos
 
-*Necromancers seem to use this place to hold their most terrific undead minions: Abominations. They are standing there, waiting for their master. With some kind of dark magic, necromancers make these monsters stand still. They don’t move even if they sense us in the vicinity. It could be a great occasion to deal a major blow. Anything that can irritate necromancers is worth the effort.*
+*Necromantes parecem usar este lugar para guardar seus mais terríveis asseclas: as Abominações. Elas estão aqui, esperando por seu mestre. Com algum tipo de magia negra, necromantes conseguiram paralisar. estes monstros. Elas não se movem mesmo sentindo nossa presença no local. Esta pode ser uma boa hora para causar um dano considerável. Qualquer coisa que possa irritar os necromances vale a pena o esforço.*
 
-> Tiles needed: 1R, 3V, 4V, 5R, 8R & 9V.
+> Mapas necessários: 1R, 3V, 4V, 5R, 8R & 9V
 
 ![mapa](./places-of-interest-quest5.png)
 
-#### Objectives
-Kill the Abominations. You win the game as soon as there are no more Abominations on the board.
+#### Objetivos
+**Mate as Abominações.** Você vence o jogo assim que todas as Abominações forem eliminadas.
 
-#### Special Rules
-- Setting.
-    - Put the blue Objective randomly among the red Objectives, face down.
-    - Put 5 Abominations (your choice) in the marked Zones.
-- Sealed doors. The blue door cannot be opened until the blue Objective has been taken. The green door cannot be opened until the green Objective has been taken.
-- Necromancers have the green key. If a Necromancer activates in front of the green door, it uses its Action to open it, ignoring any Survivors standing in the Zone.
-- Stay still! That’s my boy. Abominations don’t move unless either door leading to them is opened.
-- Clues to other places. Each Objective gives 5 experience points to the Survivor who takes it.
-- Dark Anchor. The blue Spawn Zone activates as soon as a Necromancer is drawn. The blue Spawn zone can’t be moved or removed from the game, and no other Spawn Zone can be placed in its Zone. Necromancers that do NOT spawn on the blue Spawn Zone try to reach the blue Spawn Zone, no matter how far they are from it. They enter through the green door. Necromancers spawning on the blue Spawn Zone act normally.
-- Rewards! Survivors who killed an Abomination receive a single-use bonus at the end of the Quest: +1 Damage when performing a Combat Action involving an Abomination. This bonus can be used with any weapon after an attack roll.
+#### Regras especiais
+- **Preparação**.
+    - Coloque o Objetivo azul aleatoriamente entre os Objetivos vermelhos, com a face virada para baixo.
+    - Coloque 5 Abominações (de sua escolha) nas Zonas marcadas.
+- **Portas seladas.** A porta azul não pode ser aberta até que o Objetivo azul seja pego. A porta verde não pode ser aberta até que o Objetivo verde seja pego.
+- **Os necromantes têm a chave verde.** Se um Necromante for ativado em frente à porta verde, ele gasta sua Ação para abri-la, ignorando qualquer Sobrevivente na Zona.
+- **Parado!** Esse é o meu garoto. Abominações não se movem a menos que uma das portas que dão acesso a elas esteja aberta.
+- **Pistas para outros locais.** Cada Objetivo concede 5 pontos de experiência ao Sobrevivente que o pegou.
+- **Âncora Negra.** A Zona de Entrada de Zumbis azul é ativada assim que um Necromante for sorteado. Esta Zona não pode ser movida ou removida do jogo, e nenhuma outra Zona de Entrada de Zumbis pode ser colocada nesta Zona. Necromantes que não entraram pela Zona de Entrada de Zumbis azul tentam alcançar a Zona de Entrada de Zumbis azul, não importando o quão distante estejam. Eles entram pela porta verde. Necromantes que entrarem pela Zona de Entrada de Zumbis azul agem normalmente.
+- **Recompensas!** Sobreviventes que mataram uma Abominação recebem um bônus para uso único ao final da Missão: +1 de Dano ao realizar uma Ação de Combate envolvendo uma Abominação. Este bônus pode ser usado com qualquer arma após um rolagem de ataque.
