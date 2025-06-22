@@ -9,7 +9,7 @@ quest_minutes = 60
 
 > Créditos pela tradução: Gustavo Lopes
 
-*Alguns lugares na região ficaram desertos desde que os zumbis vieram. Ninguém vai até lá, nunca. na maior parte do tepo estes lugares atraem muita atenção dos necromantes ou se tornaram moradia para monstros furiosos ou estão fortemente barricados. Aquilo que mantèm as pessoas comuns longe é terrivelmente tentador para os sobreviventes. portanto chegou a hora de fazer um tour por estes "lugares de interesse" e ver o que podemos encontrar por lá: tesouros escondidos, um bom zombicídio, ou ambos, e muita diversão. Preparado?*
+*Alguns lugares na região ficaram desertos desde que os zumbis vieram. Ninguém vai até lá, nunca. Na maior parte do tepo estes lugares atraem muita atenção dos necromantes ou se tornaram moradia para monstros furiosos ou estão fortemente barricados. Aquilo que mantém as pessoas comuns longe é terrivelmente tentador para os sobreviventes. portanto chegou a hora de fazer um tour por estes "lugares de interesse" e ver o que podemos encontrar por lá: tesouros escondidos, um bom zombicídio, ou ambos, e muita diversão. Preparado?*
 
 ## Regras da campanha
 
