@@ -1,12 +1,49 @@
 {{ define "main" }}
-<main>
-    <ul class="cards">
+{{- $isTerm := eq .Kind "term" -}}
+{{- $heroKicker := cond $isTerm "Etiqueta" "Zombicide Fantasy" -}}
+{{- $heroTitle := cond $isTerm (printf "#%s" (.Title | lower)) "Livro de Missões" -}}
+{{- $heroText := cond $isTerm "Missões e campanhas marcadas com esta etiqueta, reunidas no mesmo formato de manual para consulta na mesa." "Um arquivo de cenários para abrir na mesa como se fosse um caderno gasto de campanha: mapa em destaque, ficha rápida e regras prontas para consulta." -}}
+{{- $statLabel := cond $isTerm "Resultado" "Total" -}}
+{{- $statValue := cond $isTerm (len .Paginator.Pages) (len .Site.RegularPages) -}}
+<main class="mission-library">
+    <section class="manual-hero" aria-labelledby="library-title">
+        <div class="manual-hero__copy">
+            <p class="manual-kicker">{{ $heroKicker }}</p>
+            <h1 id="library-title">{{ $heroTitle }}</h1>
+            <p>{{ $heroText }}</p>
+        </div>
+
+        <dl class="manual-hero__stats">
+            <div>
+                <dt>{{ $statLabel }}</dt>
+                <dd>{{ $statValue }}</dd>
+            </div>
+        </dl>
+    </section>
+
+    <ul class="cards mission-grid">
         {{ range .Paginator.Pages }}
         <li class="card-item">
             {{ partial "card-post" . }}
         </li>
         {{ end }}
     </ul>
-    {{- template "_internal/pagination.html" . -}}
+
+    {{- if gt .Paginator.TotalPages 1 -}}
+    {{- $paginator := .Paginator -}}
+    <nav class="mission-pagination" aria-label="Paginação">
+        <ol class="mission-pagination__pages">
+            {{ range .Paginator.Pagers }}
+            <li>
+                {{ if eq . $paginator }}
+                <a class="mission-pagination__page is-current" href="{{ .URL }}" aria-current="page">{{ .PageNumber }}</a>
+                {{ else }}
+                <a class="mission-pagination__page" href="{{ .URL }}">{{ .PageNumber }}</a>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ol>
+    </nav>
+    {{- end -}}
 </main>
 {{ end }}

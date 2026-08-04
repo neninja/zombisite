@@ -1,0 +1,23 @@
+{{- $difficultyLabels := dict "easy" "Fácil" "medium" "Média" "hard" "Difícil" "very hard" "Muito difícil" -}}
+{{- if or .Params.quest_difficult .Params.quest_survivors .Params.quest_minutes -}}
+<ul class="mission-meta" aria-label="Ficha da missão">
+    {{- with .Params.quest_difficult }}
+    <li>
+        <span>Dificuldade</span>
+        <strong>{{ default (humanize .) (index $difficultyLabels .) }}</strong>
+    </li>
+    {{- end }}
+    {{- with .Params.quest_survivors }}
+    <li>
+        <span>Grupo</span>
+        <strong>{{ . }} sobreviventes</strong>
+    </li>
+    {{- end }}
+    {{- with .Params.quest_minutes }}
+    <li>
+        <span>Duração</span>
+        <strong>{{ . }} min</strong>
+    </li>
+    {{- end }}
+</ul>
+{{- end -}}

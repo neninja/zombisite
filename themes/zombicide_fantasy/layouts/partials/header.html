@@ -1,12 +1,20 @@
 <header class="menu">
-    <ul role="navigation">
-        <li>
-            <a href="{{.Site.BaseURL}}">{{.Site.Title}}</a>
-        </li>
+    <nav class="site-nav" aria-label="Principal">
+        <a class="site-brand" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
 
-        <li>
-            <a href="/sobreviventez">Sobreviventez</a>
-        </li>
-    </ul>
+        <ul>
+            <li>
+                <a href="{{ .Site.Home.RelPermalink }}/tags/campaigns.html">Campanhas</a>
+            </li>
+            <li>
+                <a href="{{ .Site.Home.RelPermalink }}/tags/quests.html">Missões</a>
+            </li>
+            <li>
+                <a href="{{ "tags.html" | relURL }}">Etiquetas</a>
+            </li>
+            <li>
+                <a href="/sobreviventez">Sobreviventez</a>
+            </li>
+        </ul>
+    </nav>
 </header>
-

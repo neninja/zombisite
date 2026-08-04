@@ -1,18 +1,53 @@
-<article class="card">
-    <h1>
-        <a href="{{.Permalink}}">
-        {{ .Title }}
-        <span class="emoji" aria-hidden="true">🔥</span>
-        </a>
-    </h1>
+{{- $mapRel := "" -}}
+{{- $hasMap := false -}}
+{{- with .File -}}
+    {{- $candidate := printf "%s-map.png" .TranslationBaseName -}}
+    {{- $candidateFile := printf "content/%s" $candidate -}}
+    {{- if fileExists $candidateFile -}}
+        {{- $mapRel = $candidate -}}
+        {{- $hasMap = true -}}
+    {{- end -}}
+{{- end -}}
+{{- $tags := .Params.tags | default (slice) -}}
+{{- $isCampaign := in $tags "campaigns" -}}
 
-    <ul class="tags">
-        {{ range .Params.tags }}
-        <li>
-            <a href="{{absLangURL "tags/" }}{{.}}.html">
-                #{{- . -}}
-            </a>
-        </li>
+<article class="mission-card{{ if .Draft }} is-draft{{ end }}">
+    <a class="mission-card__media" href="{{ .RelPermalink }}" aria-label="Abrir {{ .Title }}">
+        {{ if $hasMap }}
+        <img src="{{ $mapRel | relURL }}" alt="Mapa de {{ .Title }}" loading="lazy">
+        {{ else }}
+        <span class="mission-card__sigil" aria-hidden="true">Z</span>
         {{ end }}
-    </ul>
+    </a>
+
+    <div class="mission-card__body">
+        <header class="mission-card__header">
+            <p>{{ if $isCampaign }}Campanha{{ else }}Missão{{ end }}</p>
+            <h2>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+        </header>
+
+        {{ partial "quest-meta" . }}
+
+        {{ with .Summary }}
+        <p class="mission-card__summary">{{ . | plainify | htmlUnescape | truncate 180 }}</p>
+        {{ end }}
+
+        <footer class="mission-card__footer">
+            {{ with .Params.tags }}
+            <ul class="tags">
+                {{ range . }}
+                <li>
+                    <a href="{{ printf "tags/%s.html" (. | urlize) | relLangURL }}">
+                        #{{- . -}}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+
+            <a class="read-link" href="{{ .RelPermalink }}">Abrir</a>
+        </footer>
+    </div>
 </article>

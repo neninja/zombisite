@@ -1,28 +1,45 @@
 {{ define "main" }}
-<main>
-    <header class="">
-        <div class="container-singlepost-title">
-            <h1 class="">{{- .Title -}}</h1> 
-            {{if .Site.Params.Repo}}
-            <a class="fixme" href="{{.Site.Params.Repo}}/edit/main/content/{{replace .File.Path "\\" "/"}}"><code>fixme</code></a>
-            {{end}}
-        </div>
-
-        {{ with .Params.tags }}
-        <ul class="tags">
-            {{ range . }}
-            <li>
-                <a href="{{absLangURL "tags/" }}{{.}}.html">
-                    #{{- . -}}
-                </a>
-            </li>
-            {{ end }}
-        </ul>
+<main class="mission-reader">
+    <div class="manual-spread">
+        {{ if .TableOfContents }}
+        <aside class="mission-toc" aria-label="Sumário da missão">
+            <p>Sumário</p>
+            {{ .TableOfContents }}
+        </aside>
         {{ end }}
-    </header>
 
-    <article>
-        {{- .Content -}}
-    </article>
+        <article class="mission-sheet">
+            {{- $tags := .Params.tags | default (slice) -}}
+            {{- $isCampaign := in $tags "campaigns" -}}
+            <header class="mission-cover">
+                <p class="manual-kicker">{{ if $isCampaign }}Campanha{{ else }}Missão{{ end }}</p>
+                <div class="container-singlepost-title">
+                    <h1>{{- .Title -}}</h1>
+
+                    {{ if and .Site.Params.Repo .File }}
+                    <a class="fixme" href="{{ .Site.Params.Repo }}/edit/main/content/{{ replace .File.Path "\\" "/" }}">Editar</a>
+                    {{ end }}
+                </div>
+
+                {{ partial "quest-meta" . }}
+
+                {{ with .Params.tags }}
+                <ul class="tags">
+                    {{ range . }}
+                    <li>
+                        <a href="{{ printf "tags/%s.html" (. | urlize) | relLangURL }}">
+                            #{{- . -}}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </header>
+
+            <div class="mission-content">
+                {{- .Content -}}
+            </div>
+        </article>
+    </div>
 </main>
 {{ end }}

@@ -27,6 +27,7 @@ $onedark-dark-grey: #4b5263;
     --base-color: #{$onedark-dark-black};
     --text-color: var(--base-color);
     --background-color: white;
+    --control-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 
     --link-color: #266e8b;
     --accent-color: #577f48;

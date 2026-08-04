@@ -1,51 +1,255 @@
-ul.meta {
-  padding: 0;
+.mission-reader {
+  padding-bottom: 2rem;
+}
+
+.manual-spread {
+  align-items: start;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(12rem, 16rem) minmax(0, 1fr);
+}
+
+.mission-toc {
+  background: rgba(27, 22, 17, 0.9);
+  border: 1px solid rgba(224, 192, 127, 0.26);
+  border-radius: 6px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
+  color: #f0dcb1;
+  padding: 0.95rem;
+  position: sticky;
+  top: 1rem;
+}
+
+.mission-toc p {
+  color: #d4b36e;
+  font-family: "EurostileLTStd", Arial, sans-serif;
+  font-size: 0.85rem;
+  line-height: 1;
+  margin: 0 0 0.7rem;
+  text-transform: uppercase;
+}
+
+.mission-toc nav ul {
   list-style: none;
-  display: flex;
-  justify-content: end;
-  gap: 0.5rem;
+  margin: 0;
+  padding-left: 0;
+}
+
+.mission-toc nav ul ul {
+  border-left: 1px solid rgba(224, 192, 127, 0.18);
+  margin: 0.35rem 0 0.5rem;
+  padding-left: 0.7rem;
+}
+
+.mission-toc li + li {
+  margin-top: 0.35rem;
+}
+
+.mission-toc a {
+  color: #f0dcb1;
+  display: inline-block;
+  font-size: 0.95rem;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.mission-toc a:hover,
+.mission-toc a:focus {
+  color: #ffffff;
+}
+
+.mission-sheet {
+  background:
+    linear-gradient(180deg, rgba(255, 247, 225, 0.94), rgba(239, 218, 174, 0.95)),
+    url('/zombisite/imgs/papel-bg-claro.png');
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgba(66, 42, 27, 0.55);
+  border-radius: 6px;
+  box-shadow: 0 26px 80px rgba(0, 0, 0, 0.3), inset 0 0 0 8px rgba(92, 55, 31, 0.06);
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.mission-cover {
+  background:
+    linear-gradient(90deg, rgba(143, 37, 27, 0.14), transparent 38%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(89, 54, 31, 0.08));
+  border-bottom: 1px solid rgba(66, 42, 27, 0.35);
+  padding: clamp(1.2rem, 5vw, 2.6rem);
 }
 
 .container-singlepost-title {
-  margin: 0.2rem 0 0.5rem 0;
-
-  h1 {
-    margin: 0;
-  }
-
-  a.fixme {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-
-    ::before {
-      content: '// '
-    }
-  }
+  align-items: start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
 }
 
-@media (min-width:576px) {
-  .container-singlepost-title {
-    display: flex;
-    gap: 1rem;
-    justify-content: space-between;
-  }
+.container-singlepost-title h1 {
+  font-size: clamp(2.6rem, 8vw, 5.8rem);
+  max-width: 12ch;
+  text-transform: uppercase;
 }
 
-article {
-  margin-bottom: 2rem;
+.fixme {
+  align-items: center;
+  background: rgba(36, 94, 103, 0.1);
+  border: 1px solid rgba(36, 94, 103, 0.25);
+  border-radius: 999px;
+  color: #245e67;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-family: var(--control-font);
+  font-size: 0.72rem;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 1.1;
+  margin-top: 0.2rem;
+  min-height: 1.9rem;
+  padding: 0.4rem 0.65rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.fixme:hover,
+.fixme:focus {
+  background: #245e67;
+  color: #fff7df;
+}
+
+.mission-cover .mission-meta {
+  margin-top: 1.2rem;
+}
+
+.mission-cover .tags {
+  margin-top: 1rem;
+}
+
+.mission-content {
+  font-size: clamp(1rem, 1.2vw, 1.08rem);
+  padding: clamp(1.2rem, 5vw, 2.6rem);
+}
+
+.mission-content > *:first-child {
+  margin-top: 0;
+}
+
+.mission-content > *:last-child {
+  margin-bottom: 0;
+}
+
+.mission-content p {
+  color: #362719;
+  margin: 0 0 1rem;
+}
+
+.mission-content em {
+  color: #513824;
+}
+
+.mission-content h2,
+.mission-content h3,
+.mission-content h4 {
+  margin: 2rem 0 0.85rem;
+}
+
+.mission-content h2 {
+  align-items: center;
+  background: #26170f;
+  border-left: 0.45rem solid #8f251b;
+  color: #f7e5bd;
+  display: flex;
+  font-size: clamp(1.75rem, 4vw, 2.55rem);
+  min-height: 3rem;
+  padding: 0.58rem 0.85rem 0.48rem;
+}
+
+.mission-content h3 {
+  border-bottom: 1px solid rgba(143, 37, 27, 0.32);
+  color: #8f251b;
+  font-size: clamp(1.35rem, 3vw, 1.9rem);
+  padding-bottom: 0.35rem;
+}
+
+.mission-content h4 {
+  color: #245e67;
+  font-size: 1.25rem;
+}
+
+.mission-content ul,
+.mission-content ol {
+  color: #362719;
+  padding-left: 1.4rem;
+}
+
+.mission-content li + li {
+  margin-top: 0.45rem;
+}
+
+.mission-content li::marker {
+  color: #8f251b;
+  font-weight: bold;
+}
+
+.mission-content strong {
+  color: #26170f;
+}
+
+.mission-content p:has(> img) {
+  align-items: center;
+  background:
+    linear-gradient(145deg, rgba(20, 18, 15, 0.98), rgba(54, 44, 34, 0.92)),
+    url('/zombisite/imgs/papel-bg-escuro.png');
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgba(224, 192, 127, 0.28);
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.24);
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0 1.9rem;
+  padding: clamp(0.55rem, 2vw, 1rem);
+}
+
+.mission-content img {
+  border: 1px solid rgba(240, 222, 180, 0.28);
+  box-shadow: 0 20px 36px rgba(0, 0, 0, 0.34);
+  display: block;
+  height: auto;
+  max-height: 760px;
+  max-width: 100%;
+  object-fit: contain;
+  width: auto;
 }
 
 .highlight pre {
-  overflow: scroll;
+  overflow: auto;
 }
 
-article img {
-  width: auto;
-  height: auto;
-  max-height: 600px;
-  max-width: 100%;
+@media (max-width: 980px) {
+  .manual-spread {
+    grid-template-columns: 1fr;
+  }
 
-  @media (min-width:768px) {
-    max-width: 800px;
+  .mission-toc {
+    position: static;
+  }
+}
+
+@media (max-width: 620px) {
+  .container-singlepost-title {
+    display: block;
+  }
+
+  .fixme {
+    display: inline-flex;
+    margin-top: 0.85rem;
+  }
+
+  .mission-content h2 {
+    align-items: start;
+    flex-direction: column;
   }
 }

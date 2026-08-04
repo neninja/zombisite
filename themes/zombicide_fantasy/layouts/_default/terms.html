@@ -1,0 +1,30 @@
+{{ define "main" }}
+<main class="mission-library tag-library">
+    <section class="manual-hero tag-hero" aria-labelledby="tags-title">
+        <div class="manual-hero__copy">
+            <p class="manual-kicker">Índice</p>
+            <h1 id="tags-title">Etiquetas</h1>
+            <p>Atalhos para abrir recortes do grimório por coleção, campanha ou tipo de cenário.</p>
+        </div>
+
+        <dl class="manual-hero__stats">
+            <div>
+                <dt>Etiquetas</dt>
+                <dd>{{ len .Data.Terms }}</dd>
+            </div>
+        </dl>
+    </section>
+
+    <ul class="tag-grid" aria-label="Etiquetas disponíveis">
+        {{ range .Data.Terms.Alphabetical }}
+        <li>
+            <a class="tag-card" href="{{ .Page.RelPermalink }}">
+                <span class="tag-card__mark" aria-hidden="true">#</span>
+                <span class="tag-card__name">{{ .Page.Title }}</span>
+                <span class="tag-card__count">{{ .Count }} {{ if eq .Count 1 }}registro{{ else }}registros{{ end }}</span>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</main>
+{{ end }}
