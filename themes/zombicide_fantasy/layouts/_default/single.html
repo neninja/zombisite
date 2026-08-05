@@ -27,7 +27,7 @@
                 <ul class="tags">
                     {{ range . }}
                     <li>
-                        <a href="{{ printf "tags/%s.html" (. | urlize) | relLangURL }}">
+                        <a href="{{ printf "%s?tags=%s" $.Site.Home.RelPermalink (. | urlize) }}">
                             #{{- . -}}
                         </a>
                     </li>

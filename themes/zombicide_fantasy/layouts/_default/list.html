@@ -1,10 +1,14 @@
 {{ define "main" }}
 {{- $isTerm := eq .Kind "term" -}}
+{{- $pages := .Site.RegularPages -}}
+{{- if $isTerm -}}
+    {{- $pages = .Paginator.Pages -}}
+{{- end -}}
 {{- $heroKicker := cond $isTerm "Etiqueta" "Zombicide Fantasy" -}}
 {{- $heroTitle := cond $isTerm (printf "#%s" (.Title | lower)) "Livro de Missões" -}}
 {{- $heroText := cond $isTerm "Missões e campanhas marcadas com esta etiqueta, reunidas no mesmo formato de manual para consulta na mesa." "Um arquivo de cenários para abrir na mesa como se fosse um caderno gasto de campanha: mapa em destaque, ficha rápida e regras prontas para consulta." -}}
 {{- $statLabel := cond $isTerm "Resultado" "Total" -}}
-{{- $statValue := cond $isTerm (len .Paginator.Pages) (len .Site.RegularPages) -}}
+{{- $statValue := len $pages -}}
 <main class="mission-library">
     <section class="manual-hero" aria-labelledby="library-title">
         <div class="manual-hero__copy">
@@ -21,15 +25,49 @@
         </dl>
     </section>
 
-    <ul class="cards mission-grid">
-        {{ range .Paginator.Pages }}
-        <li class="card-item">
+    {{- if not $isTerm -}}
+    <section class="mission-filters" aria-labelledby="mission-filters-title" data-filter-panel>
+        <div class="mission-filters__header">
+            <div>
+                <p class="manual-kicker">Filtros</p>
+                <h2 id="mission-filters-title">Biblioteca</h2>
+            </div>
+
+            <div class="mission-filters__actions">
+                <p class="mission-filters__status" aria-live="polite" data-filter-status>{{ $statValue }} {{ if eq $statValue 1 }}registro{{ else }}registros{{ end }}</p>
+                <button class="mission-filters__clear" type="button" data-filter-clear hidden>Limpar</button>
+            </div>
+        </div>
+
+        <ul class="mission-filters__tags" aria-label="Filtros por etiqueta">
+            {{ range .Site.Taxonomies.tags.ByCount }}
+            {{- $tagValue := .Page.Title | urlize -}}
+            <li>
+                <button class="mission-filter-tag" type="button" data-filter-tag="{{ $tagValue }}" aria-pressed="false">
+                    <span>#{{ .Page.Title }}</span>
+                    <strong>{{ .Count }}</strong>
+                </button>
+            </li>
+            {{ end }}
+        </ul>
+    </section>
+    {{- end -}}
+
+    <ul class="cards mission-grid" data-filter-grid>
+        {{ range $pages }}
+        {{- $pageTags := slice -}}
+        {{- range (.Params.tags | default (slice)) -}}
+            {{- $pageTags = $pageTags | append (. | urlize) -}}
+        {{- end -}}
+        <li class="card-item" data-filter-item data-tags="{{ delimit $pageTags " " }}">
             {{ partial "card-post" . }}
         </li>
         {{ end }}
     </ul>
 
-    {{- if gt .Paginator.TotalPages 1 -}}
+    <p class="mission-empty" data-filter-empty hidden>Nenhum registro encontrado.</p>
+
+    {{- if and $isTerm (gt .Paginator.TotalPages 1) -}}
     {{- $paginator := .Paginator -}}
     <nav class="mission-pagination" aria-label="Paginação">
         <ol class="mission-pagination__pages">
@@ -46,4 +84,126 @@
     </nav>
     {{- end -}}
 </main>
+
+{{- if not $isTerm -}}
+<script>
+(function () {
+    var panel = document.querySelector("[data-filter-panel]");
+    var grid = document.querySelector("[data-filter-grid]");
+
+    if (!panel || !grid) {
+        return;
+    }
+
+    var buttons = Array.prototype.slice.call(panel.querySelectorAll("[data-filter-tag]"));
+    var items = Array.prototype.slice.call(grid.querySelectorAll("[data-filter-item]"));
+    var clearButton = panel.querySelector("[data-filter-clear]");
+    var status = panel.querySelector("[data-filter-status]");
+    var emptyState = document.querySelector("[data-filter-empty]");
+    var selected = new Set();
+
+    function normalize(value) {
+        return String(value || "").trim().toLowerCase();
+    }
+
+    function selectedTagsFromUrl() {
+        var params = new URLSearchParams(window.location.search);
+        return params.getAll("tags").join(",").split(",").map(normalize).filter(Boolean);
+    }
+
+    function updateUrl() {
+        var params = new URLSearchParams(window.location.search);
+        var tags = Array.from(selected);
+
+        params.delete("tags");
+
+        var queryParts = [];
+        var remainingQuery = params.toString();
+
+        if (remainingQuery) {
+            queryParts.push(remainingQuery);
+        }
+
+        if (tags.length) {
+            queryParts.push("tags=" + tags.map(encodeURIComponent).join(","));
+        }
+
+        var query = queryParts.join("&");
+        var nextUrl = window.location.pathname + (query ? "?" + query : "") + window.location.hash;
+        window.history.replaceState({}, "", nextUrl);
+    }
+
+    function updateStatus(visibleCount) {
+        if (!status) {
+            return;
+        }
+
+        status.textContent = visibleCount + " " + (visibleCount === 1 ? "registro" : "registros");
+    }
+
+    function applyFilters(shouldUpdateUrl) {
+        var activeTags = Array.from(selected);
+        var visibleCount = 0;
+
+        items.forEach(function (item) {
+            var itemTags = normalize(item.dataset.tags).split(/\s+/).filter(Boolean);
+            var isVisible = activeTags.every(function (tag) {
+                return itemTags.indexOf(tag) !== -1;
+            });
+
+            item.hidden = !isVisible;
+
+            if (isVisible) {
+                visibleCount += 1;
+            }
+        });
+
+        buttons.forEach(function (button) {
+            button.setAttribute("aria-pressed", selected.has(button.dataset.filterTag) ? "true" : "false");
+        });
+
+        if (clearButton) {
+            clearButton.hidden = selected.size === 0;
+        }
+
+        if (emptyState) {
+            emptyState.hidden = visibleCount !== 0;
+        }
+
+        updateStatus(visibleCount);
+
+        if (shouldUpdateUrl) {
+            updateUrl();
+        }
+    }
+
+    buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            var tag = button.dataset.filterTag;
+
+            if (selected.has(tag)) {
+                selected.delete(tag);
+            } else {
+                selected.add(tag);
+            }
+
+            applyFilters(true);
+        });
+    });
+
+    if (clearButton) {
+        clearButton.addEventListener("click", function () {
+            selected.clear();
+            applyFilters(true);
+        });
+    }
+
+    selectedTagsFromUrl().forEach(function (tag) {
+        selected.add(tag);
+    });
+
+    applyFilters(false);
+}());
+</script>
+{{- end -}}
 {{ end }}
