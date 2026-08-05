@@ -1,30 +1,57 @@
 +++
-title = "B2: The dark goose game"
+title = "B2: O jogo do ganso negro"
 tags = ["quests", "black-plague"]
-draft = true
+draft = false
 quest_difficult = "hard"
 quest_survivors = 4
 quest_minutes = 90
 +++
 
-*We found a large parchment that mentioned the “Goose Game House” and wanted to understand what it was all about. We found it, got in, and…got lost. We’ve walked through rooms, corridors, storage rooms, and workshops for two days now. It’s an enchanted maze, and to hell with whoever used to live here. We’re trapped in here with an army of zombies.*
+*Nós encontramos un perzaminho enorme que mencionava a "Easa do Jogo do Ganso" e queriamos entender do que se tratava. lós a encontramos, entramos e... nos perdemos. ós andamos por salas, corredores, armazéns, e oficinas por dois dias até agora. A casa é um labirinto encantado, e nós estamos presos aqui com um exército de zumbis. Ou... será que eles estão presos aqui conosco?*
 
-*Or...are they trapped in here with us?*
+> Material necessário: Zombicide: Black Plague
 
-> Tiles needed: 2V, 4R, 5V, 7R, 8V & 9R.
+> Mapas necessários: 1R, 2R, 5V, 7V, 8V & 9V.
 
 ![mapa](./zombicide-b2-map.png)
 
-## Objectives
-Escape! Reach the Exit Zone with all starting Survivors. Any Survivor may escape through this Zone at the end of his turn, as long as there are no Zombies in it.
+## Créditos
 
-## Special Rules
-- Setting.
-    - Put the blue and the green Objectives randomly among the red Objectives, face down.
-    - Put a random Vault weapon in each Vault.
-- It is a Goose Game? Each Objective gives 5 experience points to the Survivor who takes it. Keep the token on this Survivor’s ID Card. It takes no space in the Inventory.
-- First rule: Cardio. Taking the green or the blue Objective gives an extra Activation to the Survivor who takes it, to be used immediately after the current one.
-- Second rule: Doors. Doors do not open using the normal rules. To open a door, a Survivor spends an Action and discard an Objective token from his ID Card. In addition, the blue and the green doors can’t be opened until ALL the Objectives have been taken.
-- Third rule: Vaults. Vault doors can’t be opened as usual. Instead, when an Actor (or a group of Actors) ends a Move Action or Move Step in a Zone containing an open Vault door, immediately place the Actor(s) in the corresponding Vault. This is not a Move Action. The Vault door closes behind him, and the other Vault door of the same color opens. This rule doesn’t apply when an Actor is leaving a Vault Zone.
-- Fourth rule: the portal. Whenever an Actor ends a Move Action in the Zone containing the magic barrier token #1, he is teleported to the Zone containing the magic barrier token #2. This is not a Move Action and only works from #1 to #2.
-- Fifth rule: Dragon Fire. An Actor suffers a Dragon Fire effect whenever he ends a Move Action in a Zone containing a Fire token.
+- Tradução: Gustavo Lopes
+- [Ludopedia](https://ludopedia.com.br/jogo/zombicide-black-plague/anexos/130457)
+- [Fonte original](https://kairasensui.wordpress.com/2017/07/13/zombicide-black-plague-analise-e-missoes-extras/)
+
+## Objetivos
+
+**Fuja!** Chegue até a Zona de Saída com todos os Sobreviventes. Qualquer Sobrevivente pode escapar por esta Zona no final de seu turno desde que não haja Zumbis nela.
+
+## Regras especiais
+
+### Preparação
+
+- Coloque os Objetivos azul e verde aleatoriamente entre Objetivos vermelhos, com a face virada para baixo.
+- Coloque uma carta de Cripta aleatoriamente em cada Cripta.
+
+### É um Jogo de Ganso?
+
+Cada Objetivo concede 5 pontos de experiência para o Sobrevivente que o pegar. Mantenha a ficha na Planilha do Sobrevivente. Ela não ocupa espaço no Inventário.
+
+### Primeira regra: Cardio
+
+Pegar o Objetivo verde ou azul concede uma Ativação extra ao Sobrevivente que o pegou, que deve ser utilizada imediatamente após a atual.
+
+### Segunda regra: Portas
+
+Portas não abrem usando as regras normais. Para abrir uma porta, o Sobrevivente gasta uma Ação e descarta uma ficha de Objetivo de sua Planilha de Sobrevivente.
+
+### Terceira regra: Criptas
+
+Portas de Cripta não podem ser abertas como de costume. Ao invés, quando um Agente (ou grupo de Agentes) termina uma Ação de Movimento ou Etapa de Movimento em uma Zona contendo uma porta de Cripta aberta, imediatamente coloque o(s) Agent(es) na Cripta correspondente. Esta ação não conta como uma Ação de Movimento. Esta porta da Cripta será fechada, e a outra porta da Cripta de mesma cor será aberta. Esta regra não se aplica quando o Agente está deixando a Zona de Cripta.
+
+### Quarta regra: o portal
+
+Quando um Agente termina uma Ação de Movimento em uma Zona contendo a ficha de Barreira Mágica #1, ele é teleportado para a Zona contendo a ficha de Barreira Mágica #2. Esta ação não conta como uma Ação de Movimento e apenas funciona de #1 para #2.
+
+#### Quinta regra: Fogo de Dragão
+
+Um Agente sofre um efeito de Fogo de Dragão sempre que ele terminar uma Ação de Movimento em uma Zona contendo uma ficha de Fogo.

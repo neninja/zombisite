@@ -1,19 +1,22 @@
 +++
 title = "Campanha: Deus do fogo"
 tags = ["campaigns", "black-plague", "wulfsburg"]
-draft = true
+draft = false
 quest_difficult = "very hard"
 quest_survivors = 6
 quest_minutes = 60
 +++
-
-> Créditos pela tradução: Neninja
 
 *Tudo começou quando Padre Tucker teve uma ideia brilhante… ou pelo menos parecia. "Qual a melhor forma de destruir um bando de zumbis?" ele disse. Fogo! O fogo pode destruir até a mais terrível Abominação. Lembra-se do templo de fogo que purificamos nas nossas expedições por lugares esquecidos? Não é exatamente minha paróquia, mas se conseguíssemos uma aliança com o Deus do Fogo para destruir nossos inimigos mútuos, nossa cruzada por Wulfsburg ficaria um pouco mais fácil.*
 
 *Como sempre, o plano não sobreviveu ao primeiro contato com o inimigo. E não foi culpa dos zumbis… deles já sabíamos o que esperar. O problema foi o fogo. Fogo não é um aliado confiável, apenas um inimigo confiável de tudo e todos que puder consumir. Maneje com cuidado.*
 
 > Campanha avançada para Zombicide: Black Plague, criada para o Kickstarter de 2015. Feita para ser jogada com a expansão Wulfsburg.
+
+## Créditos
+
+- Tradução: Neninja
+- [Fonte original](https://www.zombicide.com/zombicide-fantasy-quests/)
 
 ## Regras da Campanha
 
@@ -34,9 +37,7 @@ A campanha se encerra em *"Armageddon"*. Ela pode levá-los de volta à primeira
 > - Um Sobrevivente morrer? Ele inicia a próxima missão com uma Ferida.
 > - Sobrevivente terminar ferido? Ele começa a próxima missão totalmente curado.
 
-## Missões
-
-### Missão 1: Encontre o Deus do Fogo
+## Missão 1: Encontre o Deus do Fogo
 - Difícil
 - 6 sobreviventes
 - 180 minutos
@@ -55,12 +56,24 @@ Vença quando a Zona do templo (1V) e ambas as torres estiverem livres de zumbis
 - **Fracasso:** A campanha falha. Tente novamente.
 
 ### Regras especiais
-- **Preparação:** Coloque o Objetivo verde aleatoriamente entre os Objetivos vermelhos, com a face para baixo.
-- **Porta do templo:** Só pode ser aberta após pegar o Objetivo verde.
-- **Desecradores:** Necromantes vão para a Zona de Saída (bandeira) ao invés de uma Zona de Entrada. Se estiverem em frente à porta verde, gastam a próxima ativação para abri-la.
-- **Profanação Final:** Se o Necromante chegar na Zona de Saída, ele termina a missão.
 
-### Missão 2: A Torre do Dragão
+#### Preparação
+
+Coloque o Objetivo verde aleatoriamente entre os Objetivos vermelhos, com a face para baixo.
+
+#### Porta do templo
+
+Só pode ser aberta após pegar o Objetivo verde.
+
+#### Desecradores
+
+Necromantes vão para a Zona de Saída (bandeira) ao invés de uma Zona de Entrada. Se estiverem em frente à porta verde, gastam a próxima ativação para abri-la.
+
+#### Profanação Final
+
+Se o Necromante chegar na Zona de Saída, ele termina a missão.
+
+## Missão 2: A Torre do Dragão
 - Difícil
 - 6 sobreviventes
 - 120 minutos
@@ -85,11 +98,19 @@ Vença quando a Zona do templo (1V) e ambas as torres estiverem livres de zumbis
 
 ### Regras especiais
 
-- **Preparação:** O Objetivo azul fica escondido entre os vermelhos, com a face para baixo. O verde já começa revelado.
-- **Alimente o Deus do Fogo:** Cada Objetivo concede 5 XP.
-- **QUEIME!** Cada vez que um Objetivo colorido for pego, a Torre do Dragão pode disparar uma ação de Fogo de Dragão com alcance 1-4.
+#### Preparação
 
-### Missão 3: Os Gêmeos Carmesim
+O Objetivo azul fica escondido entre os vermelhos, com a face para baixo. O verde já começa revelado.
+
+#### Alimente o Deus do Fogo
+
+Cada Objetivo concede 5 XP.
+
+#### QUEIME!
+
+Cada vez que um Objetivo colorido for pego, a Torre do Dragão pode disparar uma ação de Fogo de Dragão com alcance 1-4.
+
+## Missão 3: Os Gêmeos Carmesim
 - Fácil
 - 6 sobreviventes
 - 180 minutos
@@ -109,12 +130,24 @@ Vença quando a Zona do templo (1V) e ambas as torres estiverem livres de zumbis
 - Falha: o incêndio Deus entra em Wulfsburg, afirma seu favorito corpos dos padres e vão atrás da vingança. Vá para bater no fogo.
 
 ### Regras especiais
-- **Preparação:** Objetivo azul embaralhado entre os vermelhos.
-- **Relíquias espalhadas:** Cada Objetivo concede 5 XP.
-- **Porta de aço azul:** Só pode ser aberta após pegar o Objetivo azul.
-- **Fantasmas em chamas:** Após a Fase dos Zumbis, mas antes da Fase Final, mova cada token de Fogo uma Zona em direção à sua Zona correspondente (ignorando obstáculos). Quando chegarem, retornam ao início. As zonas ocupadas por eles são sempre afetadas por Fogo de Dragão.
 
-### Missão 4: Armageddon
+#### Preparação
+
+Objetivo azul embaralhado entre os vermelhos.
+
+#### Relíquias espalhadas
+
+Cada Objetivo concede 5 XP.
+
+#### Porta de aço azul
+
+Só pode ser aberta após pegar o Objetivo azul.
+
+#### Fantasmas em chamas
+
+Após a Fase dos Zumbis, mas antes da Fase Final, mova cada token de Fogo uma Zona em direção à sua Zona correspondente (ignorando obstáculos). Quando chegarem, retornam ao início. As zonas ocupadas por eles são sempre afetadas por Fogo de Dragão.
+
+## Missão 4: Armageddon
 
 - Muito difícil
 - 6 sobreviventes
@@ -137,12 +170,24 @@ Vença quando a Zona do templo (1V) e ambas as torres estiverem livres de zumbis
 - **Fracasso:** O Deus do Fogo se deleita em ver o mundo arder. **Vá para a missão "Reprimindo o Fogo".**
 
 ### Regras especiais
-- **Preparação:** Objetivos azul e verde embaralhados entre os vermelhos.
-- **Ídolos:** Cada Objetivo concede 5 XP.
-- **Ciclone de Fogo:** Após cada Fase dos Zumbis, o Primeiro Jogador fecha os olhos e derruba aleatoriamente um token de Fogo sobre o tabuleiro. Todas as Zonas tocadas sofrem efeito de Fogo de Dragão.
-- **Chuva forte:** Quando o Objetivo verde for pego, resolva imediatamente um Ciclone de Fogo.
 
-### Missão 5: Reprimindo o Fogo
+#### Preparação
+
+Objetivos azul e verde embaralhados entre os vermelhos.
+
+#### Ídolos
+
+Cada Objetivo concede 5 XP.
+
+#### Ciclone de Fogo
+
+Após cada Fase dos Zumbis, o Primeiro Jogador fecha os olhos e derruba aleatoriamente um token de Fogo sobre o tabuleiro. Todas as Zonas tocadas sofrem efeito de Fogo de Dragão.
+
+#### Chuva forte
+
+Quando o Objetivo verde for pego, resolva imediatamente um Ciclone de Fogo.
+
+## Missão 5: Reprimindo o Fogo
 - Médio
 - 6 sobreviventes
 - 180 minutos
@@ -162,10 +207,23 @@ Vença quando a Zona do templo (1V) e ambas as torres estiverem livres de zumbis
 - **Fracasso:** Se qualquer criatura de fogo alcançar uma **Zona de Aparição**, ela escapará para incendiar a cidade inteira. **A campanha termina em fracasso.**
 
 ### Regras especiais
-- **Os Emissários de Fogo:** Após cada Fase dos Sobreviventes, antes da Fase dos Zumbis, jogue a Fase dos Emissários. Para cada um:
-  - Se tiver Linha de Visão com zumbis, mova 1 Zona na direção deles.
-  - Se não tiver visão, não se move.
-  - No final, aplique Fogo de Dragão nas Zonas ocupadas.
-- **Afinidade Elemental:** Sempre que um Sobrevivente criar Fogo de Dragão, mova um Emissário para aquela Zona.
-- **Opostos Elementais:** Ao pegar um Objetivo, o Sobrevivente ganha 5 XP e pode procurar por um equipamento de Água no baralho ou descarte. Ele pode equipá-lo gratuitamente. Depois, embaralhe o baralho. Um Sobrevivente pode descartar um item de Água para mover um Emissário uma Zona em qualquer direção.
-- **Altar de Fogo:** A Zona de Saída representa o altar. Qualquer Emissário que entrar nela é removido do jogo.
+
+#### Os Emissários de Fogo
+
+Após cada Fase dos Sobreviventes, antes da Fase dos Zumbis, jogue a Fase dos Emissários. Para cada um:
+
+- Se tiver Linha de Visão com zumbis, mova 1 Zona na direção deles.
+- Se não tiver visão, não se move.
+- No final, aplique Fogo de Dragão nas Zonas ocupadas.
+
+#### Afinidade Elemental
+
+Sempre que um Sobrevivente criar Fogo de Dragão, mova um Emissário para aquela Zona.
+
+#### Opostos Elementais
+
+Ao pegar um Objetivo, o Sobrevivente ganha 5 XP e pode procurar por um equipamento de Água no baralho ou descarte. Ele pode equipá-lo gratuitamente. Depois, embaralhe o baralho. Um Sobrevivente pode descartar um item de Água para mover um Emissário uma Zona em qualquer direção.
+
+#### Altar de Fogo
+
+A Zona de Saída representa o altar. Qualquer Emissário que entrar nela é removido do jogo.

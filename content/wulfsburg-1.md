@@ -27,5 +27,10 @@ todos os Sobreviventes. Qualquer Sobrevivente pode escapar por
 esta Zona no final de seu turno desde que não haja Zumbis nela.
 
 ## Regras especiais
-- Preparação. Coloque os Objetivos azul e verde em meio aos Objetivos vermelhos (de maneira aleatória e com as faces viradas para baixo).
-- Segredos Mortais. Cada Objetivo concede 5 pontos de experiência para o Sobrevivente que o pegar. Coletar o Objetivo azul ou verde também concede um artefato de Cripta aleatório.
+### Preparação
+
+Coloque os Objetivos azul e verde em meio aos Objetivos vermelhos (de maneira aleatória e com as faces viradas para baixo).
+
+### Segredos Mortais
+
+Cada Objetivo concede 5 pontos de experiência para o Sobrevivente que o pegar. Coletar o Objetivo azul ou verde também concede um artefato de Cripta aleatório.

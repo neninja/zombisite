@@ -1,7 +1,7 @@
 +++
-title = "B58: The dungeon of famine!"
+title = "B58: A masmorra da fome!"
 tags = ["quests", "black-plague", "wulfsburg"]
-draft = true
+draft = false
 quest_difficult = "very hard"
 quest_survivors = 6
 quest_minutes = 60
@@ -9,25 +9,55 @@ quest_minutes = 60
 
 > By Henrique GARRIGÓS, Rodrigo SONNESSO, and Toi VON GLEHN.
 
-*Legend says that the Dungeon of Famine holds great treasures and secrets long forgotten. Captain Ardgeel went inside by himself and hasn’t returned. We cannot let his greed cause his doom, for true friends value each other despite their flaws. We are rushing towards this evil place, hoping that the captain is safe somewhere inside. No man can withstand the malevolent aura that emanates from it for long!*
+*Diz a lenda que a Masmorra da Fome guarda grandes tesouros e segredos há muito esquecidos. O Capitão Ardgeel entrou sozinho e não retornou. Não podemos deixar que a ganância dele o leve à ruína, pois verdadeiros amigos valorizam uns aos outros, apesar de suas falhas. Apressamo-nos em direção a esse lugar maligno, esperando que o capitão esteja a salvo em algum ponto lá dentro. Nenhum homem consegue suportar por muito tempo a aura malévola que emana de lá!*
 
-> Tiles: 1V, 2V, 3R, 4R, 5V, 6V, 8R, & 10V.
+> Materiais necessários: Zombicide: Black Plague e Zombicide: Wolfsburg
+
+> Mapas necessários: 1V, 2V, 3R, 4R, 5V, 6V, 8R, & 10V.
 
 ![mapa](./zombicide-b58-map.png)
 
-## Objectives
-Rescue Captain Ardgeel! Find the Green Objective and bring it to the Magic Dome Zone.
+## Créditos
+
+- Tradução: Neninja
+- Revisão: 
+- [Fonte original](https://www.zombicide.com/zombicide-fantasy-quests/)
+
+## Objectivos
+**Resgate o Capitão Ardgeel!** Encontre o Objetivo Verde e leve-o para a Zona da Cúpula Mágica.
 
 ## Special Rules
-- Setup.
-    - The board has 2 separate levels as shown on the map. Both levels are connected by the Yellow Vault token. Once open, any Survivor may spend a Move Action to move from one level to another.
-    - Set aside a Survivor Dashboard with its Danger Bar set to 9. It represents the dungeon timer.
-    - Shuffle the Green Objectives among the Red Objectives, facedown.
-    - Place the Blue Objective as indicated on the map.
-- Aura of Famine. At the end of each Game Round, decrease the dungeon timer by 1. When the timer reaches 6, then 3, every Survivor outside the Magic Dome Zone endures 1 Wound. When the dungeon timer reaches 0, Captain Ardgeel perishes and the Quest is lost.
-- As above, so below. A board level is inactive if there are no Survivors on it during the Zombies’ Phase. Zombies on that level do not activate. Do not draw Zombie cards for its active Spawn Zones.
-- Your friend is in another room. Red Objectives give 5 Experience Points to the Survivor who takes it.
-- Lucky. The Blue Objective gives 5 Experience Points to the Survivor who takes it. Then, the Survivor obtains a random Vault Weapon. They can then reorganize their inventory for free.
-- I found Ardgeel! The Green Objective gives 5 Experience Points to ALL Survivors when taken. Keep this Objective next to the Survivor’s dashboard. It doesn’t take up a slot in their inventory and may be traded like an Equipment card. The Green Spawn Zone is inactive until the Green Objective is taken.
-- Fragile doors. Die rolls to open doors automatically succeed.
-- Too many horrors. Whenever Zombies would split into new groups when moving, do not add new Zombies to the map. In this case, players choose where the extra Zombie moves to instead.
+
+### Preparação
+- O tabuleiro possui 2 níveis distintos, conforme mostrado no mapa. Ambos os níveis estão conectados pelo marcador de Cofre Amarelo. Uma vez aberto, qualquer Sobrevivente pode gastar uma Ação de Movimento para ir de um nível para o outro. 
+- Separe um Painel de Sobrevivente com sua Barra de Perigo ajustada para 9. Ele representa o cronômetro da masmorra. 
+- Embaralhe os Objetivos Verdes junto com os Objetivos Vermelhos, com as faces voltadas para baixo. 
+- Coloque o Objetivo Azul conforme indicado no mapa.
+
+### Aura de Fome
+
+Ao final de cada Rodada de Jogo, reduza o cronômetro da masmorra em 1. Quando o cronômetro chegar a 6 e, depois, a 3, todo Sobrevivente fora da Zona da Cúpula Mágica sofre 1 Ferimento. Quando o cronômetro da masmorra chegar a 0, o Capitão Ardgeel perece e a Missão é perdida.
+
+### Assim em cima, como embaixo
+
+Um nível do tabuleiro fica inativo se não houver Sobreviventes nele durante a Fase dos Zumbis. Zumbis nesse nível não são ativados. Não compre cartas de Zumbi para suas Zonas de Surgimento ativas.
+
+### Seu amigo está em outra sala
+
+Objetivos Vermelhos concedem 5 Pontos de Experiência ao Sobrevivente que os pegar.
+
+### Sortudo
+
+O Objetivo Azul concede 5 Pontos de Experiência ao Sobrevivente que o pegar. Em seguida, o Sobrevivente obtém uma Arma de Cofre aleatória. Ele pode então reorganizar seu inventário gratuitamente.
+
+### Encontrei Ardgeel!
+
+O Objetivo Verde concede 5 Pontos de Experiência a TODOS os Sobreviventes quando é pego. Mantenha esse Objetivo próximo ao painel do Sobrevivente. Ele não ocupa um espaço no inventário e pode ser trocado como uma carta de Equipamento. A Zona de Surgimento Verde permanece inativa até que o Objetivo Verde seja pego.
+
+### Portas frágeisl
+
+Testes de dado para abrir portas são bem-sucedidos automaticamente.
+
+### Horrores demais
+
+Sempre que Zumbis fossem se dividir em novos grupos ao se mover, não adicione novos Zumbis ao mapa. Nesse caso, os jogadores escolhem para onde o Zumbi extra se move.
