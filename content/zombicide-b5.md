@@ -7,7 +7,7 @@ quest_survivors = 4
 quest_minutes = 90
 +++
 
-*Nós estamos fora para explorar o que restou do distrito mais rico desta cidade, mas há enormes hordas de zumbis por todo o lugar. São zumbis demais para nós enfrentarmos, portanto é melhor entrar e sair o mais silenciosamente possivel, de preferência sem sermos vistos. Não será fácil...*
+*Nós estamos fora para explorar o que restou do distrito mais rico desta cidade, mas há enormes hordas de zumbis por todo o lugar. São zumbis demais para nós enfrentarmos, portanto, é melhor entrar e sair o mais silenciosamente possível, de preferência sem sermos vistos. Não será fácil...*
 
 > Materiais necessários: Zombicide: Black Plague
 

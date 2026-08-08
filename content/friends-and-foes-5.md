@@ -7,9 +7,9 @@ quest_survivors = 6
 quest_minutes = 60
 +++
 
-Estamos em uma situação complicada. Nosso abrigo mais recente não pode nos proteger muito mais tempo, e ainda não encontramos outro adequado. Está frio, a chuva continua caindo, e uma lua pálida já está aparecendo no céu.
+*Estamos em uma situação complicada. Nosso abrigo mais recente não pode nos proteger muito mais tempo, e ainda não encontramos outro adequado. Está frio, a chuva continua caindo, e uma lua pálida já está aparecendo no céu.*
 
-Este vilarejo em uma estrada comercial é nosso último recurso. Já estivemos aqui antes, e lembramos de duas construções reforçadas no lugar. Nosso próximo abrigo pode muito bem estar cheio de monstros infectados. Vamos abrir aquelas portas e descobrir. Vamos limpar o lugar se não houver outra opção. Meu reino por uma fogueira e calças secas!
+*Este vilarejo em uma estrada comercial é nosso último recurso. Já estivemos aqui antes, e lembramos de duas construções reforçadas no lugar. Nosso próximo abrigo pode muito bem-estar cheio de monstros infectados. Vamos abrir aquelas portas e descobrir. Vamos limpar o lugar se não houver outra opção. Meu reino por uma fogueira e calças secas!*
 
 > Material necessário: Zombicide: Green Horde, Friends And Foes.
 

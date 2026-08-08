@@ -7,7 +7,7 @@ quest_survivors = 4
 quest_minutes = 90
 +++
 
-*Nós encontramos un perzaminho enorme que mencionava a "Easa do Jogo do Ganso" e queriamos entender do que se tratava. lós a encontramos, entramos e... nos perdemos. ós andamos por salas, corredores, armazéns, e oficinas por dois dias até agora. A casa é um labirinto encantado, e nós estamos presos aqui com um exército de zumbis. Ou... será que eles estão presos aqui conosco?*
+*Nós encontramos un pergaminho enorme que mencionava a "Casa do Jogo do Ganso" e queríamos entender do que se tratava. Nós a encontramos, entramos e... nos perdemos. Nós andamos por salas, corredores, armazéns, e oficinas por dois dias até agora. A casa é um labirinto encantado, e nós estamos presos aqui com um exército de zumbis. Ou... será que eles estão presos aqui conosco?*
 
 > Material necessário: Zombicide: Black Plague
 

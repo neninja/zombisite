@@ -7,7 +7,7 @@ quest_survivors = 4
 quest_minutes = 90
 +++
 
-*Localizar o covil de um пеcromante não é uma tarefa fácil, e nós iremos nos lembrar dessa por um tempo. A cabala que vive aqui está associada com dragões. Eles estão em alzum lugar nas redondezas, e colocaram armadilhas malignas para protegerem seu refúgio, poças de bílís de dragão, atívadas por magia negra assim que alguém se aproxima demais.*
+*Localizar o covil de um пеcromante não é uma tarefa fácil, e nós iremos nos lembrar dessa por um tempo. A cabala que vive aqui está associada com dragões. Eles estão em algum lugar nas redondezas, e colocaram armadilhas malignas para protegerem seu refúgio, poças de bílís de dragão, atívadas por magia negra assim que alguém se aproxima demais.*
 
 *Vocês podem correr, mas não podem se esconder, demônios!*
 
@@ -54,4 +54,4 @@ Sempre que um Agente termina sua Ação de Movimento (ou Etapa de Movimento) em 
 Sempre que um Agente (ou grupo de Agentes) termina a Ação de Movimento (ou Etapa de Movimento) em uma Zona contendo uma u poça de Bílis de Dragão, e após completar ou cancelar o Movimento obrigatório, sorteie um Objetivo da pilha de armadilhas. Olhe e ponha de volta na pilha, com a face virada para baixo. A pilha deve ser embaralhada.
 
 - Vermelho: Nada acontece.
-- Verde: Vire a ficha de Bílis de Dragão. O lado com fogo indica uma fogueira na Zona: qualquer Agente narado na Zona ou cruzando-a está sujeito ao efeito do Fogo do Dragão. O lado com a barreira mágica significa que nada pode entrar ou sair da Zona (campo de visão é bloqueado). Ambos os efeitos terminam no fim da próxima Fase Final. Vire a ficha para o lado com a Bílis de Dragão.
+- Verde: Vire a ficha de Bílis de Dragão. O lado com fogo indica uma fogueira na Zona: qualquer Agente parado na Zona ou cruzando-a está sujeito ao efeito do Fogo do Dragão. O lado com a barreira mágica significa que nada pode entrar ou sair da Zona (campo de visão é bloqueado). Ambos os efeitos terminam no fim da próxima Fase Final. Vire a ficha para o lado com a Bílis de Dragão.

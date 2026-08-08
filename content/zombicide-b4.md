@@ -7,8 +7,7 @@ quest_survivors = 4
 quest_minutes = 90
 +++
 
-*A mansão que encontramos estava assombrada desde muito antes dos zumbis aparecerem paкa acabar com sua glória, com seus dedos podres e fluidos fedorentos. Os fantasmas
-exam renomados vor selus tempegamentos ruins e a praga dos zumbis os colocou em um estado de fúría incansável. Eles não deveriam ser um incomodo, exceto pelo fato de que estas aparições estúpidas possuem formas limitadas de mostrar sua raiva além de jogar objetos por ai e bater portas. Batendo portas sem parar, eles atraem mais zumbis, se enfurecem e assim por diante. Chega é chega! Nós precisamos parar este barulho interminável, que está atraindo zumbis a quilometros de distância.*
+*A mansão que encontramos estava assombrada desde muito antes dos zumbis aparecerem para acabar com sua glória, com seus dedos podres e fluidos fedorentos. Os fantasmas eram renomados por seus temperamentos ruins e a praga dos zumbis os colocou em um estado de fúria incansável. Eles não deveriam ser um incômodo, exceto pelo fato de que estas aparições estúpidas possuem formas limitadas de mostrar sua raiva além de jogar objetos por aí e bater portas. Batendo portas sem parar, eles atraem mais zumbis, se enfurecem e assim por diante. Chega é chega! Nós precisamos parar este barulho interminável, que está atraindo zumbis a quilômetros de distância.*
 
 > Material necessário: Zombicide: Black Plague
 
@@ -22,7 +21,7 @@ exam renomados vor selus tempegamentos ruins e a praga dos zumbis os colocou em 
 - [Ludopedia](https://ludopedia.com.br/jogo/zombicide-black-plague/anexos/130457)
 - [Fonte original](https://kairasensui.wordpress.com/2017/07/13/zombicide-black-plague-analise-e-missoes-extras/)
 
-## Objectivos
+## Objetivos
 
 **Elimine todos os Zumbis.** Você vence o jogo caso todos os Zumbis dentro da mansão (prédio central com seis portas) sejam eliminados.
 
@@ -37,7 +36,7 @@ exam renomados vor selus tempegamentos ruins e a praga dos zumbis os colocou em 
 
 Cada Objetivo concede 5 pontos de experiência para o Sobrevivente que o pegar. Mantenha a ficha na Planilha do Sobrevivente. Ela não ocupa espaço no Inventário.
 
-### Você não é bem vindo. Ninguém é
+### Você não é bem-vindo. Ninguém é
 
 As seis portas da mansão não podem ser abertas por meios comuns.
 
@@ -52,4 +51,4 @@ A qualquer momento durante a Fase dos Sobreviventes, o time inteiro pode descart
 
 ### Fantasmas batendo portas, de novo
 
-Antes de cada Fase de Zumbis, feche todas as portas da mansão. Se as portas forem abertas novamente, sorteie Zumbis para o interior do mansão como se nenhuma porta tivesse sido aberta anteriormente.
+Antes de cada Fase de Zumbis, feche todas as portas da mansão. Se as portas forem abertas novamente, sorteie Zumbis para o interior da mansão como se nenhuma porta tivesse sido aberta anteriormente.

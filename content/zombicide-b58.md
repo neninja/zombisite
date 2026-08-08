@@ -9,7 +9,7 @@ quest_minutes = 60
 
 > By Henrique GARRIGÓS, Rodrigo SONNESSO, and Toi VON GLEHN.
 
-*Diz a lenda que a Masmorra da Fome guarda grandes tesouros e segredos há muito esquecidos. O Capitão Ardgeel entrou sozinho e não retornou. Não podemos deixar que a ganância dele o leve à ruína, pois verdadeiros amigos valorizam uns aos outros, apesar de suas falhas. Apressamo-nos em direção a esse lugar maligno, esperando que o capitão esteja a salvo em algum ponto lá dentro. Nenhum homem consegue suportar por muito tempo a aura malévola que emana de lá!*
+*Diz a lenda que a Masmorra da Fome guarda grandes tesouros e segredos há muito esquecidos. O Capitão Ardgeel entrou sozinho e não retornou. Não podemos permitir que a ganância dele o leve à ruína, pois verdadeiros amigos valorizam uns aos outros, apesar de suas falhas. Apressamo-nos em direção a esse lugar maligno, esperando que o capitão esteja a salvo em algum ponto lá dentro. Nenhum homem consegue suportar por muito tempo a aura malévola que emana de lá!*
 
 > Materiais necessários: Zombicide: Black Plague e Zombicide: Wolfsburg
 

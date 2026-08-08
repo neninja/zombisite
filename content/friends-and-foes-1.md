@@ -7,9 +7,9 @@ quest_survivors = 6
 quest_minutes = 90
 +++
 
-Depois de vagar por muitos meses, encontramos um vilarejo remoto localizado em um platô. Logo percebemos que ele era isolado do mundo, pois os habitantes não sabiam nada sobre a peste negra. Ficamos aqui por dois dias, aproveitando uma vida mais simples entre pessoas honestas e preparando suas defesas. Mas parece que os necromantes nos rastrearam de algum modo e esperaram pelo momento certo para atacar. Estávamos do outro lado do vale quando vimos a fumaça. Corremos de volta.
+*Depois de vagar por muitos meses, encontramos um vilarejo remoto localizado em um platô. Logo percebemos que ele era isolado do mundo, pois os habitantes não sabiam nada sobre a peste-negra. Ficamos aqui por dois dias, aproveitando uma vida mais simples entre pessoas honestas e preparando suas defesas. Mas parece que os necromantes nos rastrearam de algum modo e esperaram pelo momento certo para atacar. Estávamos do outro lado do vale quando vimos a fumaça. Corremos de volta.*
 
-Tarde demais. Tudo que podemos fazer agora é colocar nossos anfitriões para descansar e seguir a horda para nos vingar.
+*Tarde demais. Tudo que podemos fazer agora é colocar nossos anfitriões para descansar e seguir a horda para nos vingar.*
 
 > Material necessário: Zombicide: Black Plague, Friends And Foes.
 
