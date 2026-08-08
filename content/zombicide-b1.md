@@ -51,7 +51,7 @@ Sempre que um Agente termina sua Ação de Movimento (ou Etapa de Movimento) em 
 
 ### Pulando a armadilha
 
-Sempre que um Agente (ou grupo de Agentes) termina a Ação de Movimento (ou Etapa de Movimento) em uma Zona contendo uma u poça de Bílis de Dragão, e após completar ou cancelar o Movimento obrigatório, sorteie um Objetivo da pilha de armadilhas. Olhe e ponha de volta na pilha, com a face virada para baixo. A pilha deve ser embaralhada.
+Sempre que um Agente (ou grupo de Agentes) termina a Ação de Movimento (ou Etapa de Movimento) em uma Zona contendo uma poça de Bílis de Dragão, e após completar ou cancelar o Movimento obrigatório, sorteie um Objetivo da pilha de armadilhas. Olhe e ponha de volta na pilha, com a face virada para baixo. A pilha deve ser embaralhada.
 
 - Vermelho: Nada acontece.
 - Verde: Vire a ficha de Bílis de Dragão. O lado com fogo indica uma fogueira na Zona: qualquer Agente parado na Zona ou cruzando-a está sujeito ao efeito do Fogo do Dragão. O lado com a barreira mágica significa que nada pode entrar ou sair da Zona (campo de visão é bloqueado). Ambos os efeitos terminam no fim da próxima Fase Final. Vire a ficha para o lado com a Bílis de Dragão.
