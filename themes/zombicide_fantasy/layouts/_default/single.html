@@ -8,38 +8,43 @@
         </aside>
         {{ end }}
 
-        <article class="mission-sheet">
-            {{- $tags := .Params.tags | default (slice) -}}
-            {{- $isCampaign := in $tags "campaigns" -}}
-            <header class="mission-cover">
-                <p class="manual-kicker">{{ if $isCampaign }}Campanha{{ else }}Missão{{ end }}</p>
-                <div class="container-singlepost-title">
-                    <h1>{{- .Title -}}</h1>
+        <div class="mission-sheet">
+            <article>
+                {{- $tags := .Params.tags | default (slice) -}}
+                {{- $isCampaign := in $tags "campaigns" -}}
+                <header class="mission-cover">
+                    <p class="manual-kicker">{{ if $isCampaign }}Campanha{{ else }}Missão{{ end }}</p>
+                    <div class="container-singlepost-title">
+                        <h1>{{- .Title -}}</h1>
 
-                    {{ if and .Site.Params.Repo .File }}
-                    <a class="fixme" href="{{ .Site.Params.Repo }}/edit/main/content/{{ replace .File.Path "\\" "/" }}">Editar</a>
+                        {{ if and .Site.Params.Repo .File }}
+                        <a class="fixme" href="{{ .Site.Params.Repo }}/edit/main/content/{{ replace .File.Path "\\" "/" }}">Editar</a>
+                        {{ end }}
+                    </div>
+
+                    {{ partial "quest-meta" . }}
+
+                    {{ with .Params.tags }}
+                    <ul class="tags">
+                        {{ range . }}
+                        <li>
+                            <a href="{{ printf "%s?tags=%s" $.Site.Home.RelPermalink (. | urlize) }}">
+                                #{{- . -}}
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
                     {{ end }}
+                </header>
+
+                <div class="mission-content">
+                    {{- .Content -}}
                 </div>
-
-                {{ partial "quest-meta" . }}
-
-                {{ with .Params.tags }}
-                <ul class="tags">
-                    {{ range . }}
-                    <li>
-                        <a href="{{ printf "%s?tags=%s" $.Site.Home.RelPermalink (. | urlize) }}">
-                            #{{- . -}}
-                        </a>
-                    </li>
-                    {{ end }}
-                </ul>
-                {{ end }}
-            </header>
-
+            </article>
             <div class="mission-content">
-                {{- .Content -}}
+                {{ partial "giscus.html" . }}
             </div>
-        </article>
+        </div>
     </div>
 </main>
 {{ end }}
