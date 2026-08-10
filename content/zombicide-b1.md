@@ -11,7 +11,7 @@ quest_minutes = 90
 
 *Vocês podem correr, mas não podem se esconder, demônios!*
 
-> Material necessário: Zombicide: Black Plague
+> Material necessário: *Zombicide: Black Plague*
 
 > Mapas necessários: 1R, 2R, 5V, 7V, 8V & 9V.
 
@@ -22,6 +22,7 @@ quest_minutes = 90
 - Tradução: Gustavo Lopes
 - [Ludopedia](https://ludopedia.com.br/jogo/zombicide-black-plague/anexos/130457)
 - [Fonte original](https://kairasensui.wordpress.com/2017/07/13/zombicide-black-plague-analise-e-missoes-extras/)
+- Edição e revisão: Neninja
 
 ## Objetivos
 

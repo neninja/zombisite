@@ -9,7 +9,7 @@ quest_minutes = 90
 
 *A mansão que encontramos estava assombrada desde muito antes dos zumbis aparecerem para acabar com sua glória, com seus dedos podres e fluidos fedorentos. Os fantasmas eram renomados por seus temperamentos ruins e a praga dos zumbis os colocou em um estado de fúria incansável. Eles não deveriam ser um incômodo, exceto pelo fato de que estas aparições estúpidas possuem formas limitadas de mostrar sua raiva além de jogar objetos por aí e bater portas. Batendo portas sem parar, eles atraem mais zumbis, se enfurecem e assim por diante. Chega é chega! Nós precisamos parar este barulho interminável, que está atraindo zumbis a quilômetros de distância.*
 
-> Material necessário: Zombicide: Black Plague
+> Material necessário: *Zombicide: Black Plague*
 
 > Mapas necessários: 1V, 2R, 3V, 4R, 5R & 6V.
 
@@ -20,6 +20,7 @@ quest_minutes = 90
 - Tradução: Gustavo Lopes
 - [Ludopedia](https://ludopedia.com.br/jogo/zombicide-black-plague/anexos/130457)
 - [Fonte original](https://kairasensui.wordpress.com/2017/07/13/zombicide-black-plague-analise-e-missoes-extras/)
+- Edição e revisão: Neninja
 
 ## Objetivos
 

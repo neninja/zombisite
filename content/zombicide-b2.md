@@ -9,9 +9,9 @@ quest_minutes = 90
 
 *Nós encontramos un pergaminho enorme que mencionava a "Casa do Jogo do Ganso" e queríamos entender do que se tratava. Nós a encontramos, entramos e... nos perdemos. Nós andamos por salas, corredores, armazéns, e oficinas por dois dias até agora. A casa é um labirinto encantado, e nós estamos presos aqui com um exército de zumbis. Ou... será que eles estão presos aqui conosco?*
 
-> Material necessário: Zombicide: Black Plague
+> Material necessário: *Zombicide: Black Plague*
 
-> Mapas necessários: 1R, 2R, 5V, 7V, 8V & 9V.
+> Mapas necessários: 2V, 4R, 5V, 7R, 8V & 9R.
 
 ![mapa](./zombicide-b2-map.png)
 
@@ -20,6 +20,7 @@ quest_minutes = 90
 - Tradução: Gustavo Lopes
 - [Ludopedia](https://ludopedia.com.br/jogo/zombicide-black-plague/anexos/130457)
 - [Fonte original](https://kairasensui.wordpress.com/2017/07/13/zombicide-black-plague-analise-e-missoes-extras/)
+- Edição e revisão: Neninja
 
 ## Objetivos
 
@@ -46,12 +47,12 @@ Portas não abrem usando as regras normais. Para abrir uma porta, o Sobrevivente
 
 ### Terceira regra: Criptas
 
-Portas de Cripta não podem ser abertas como de costume. Ao invés, quando um Agente (ou grupo de Agentes) termina uma Ação de Movimento ou Etapa de Movimento em uma Zona contendo uma porta de Cripta aberta, imediatamente coloque o(s) Agent(es) na Cripta correspondente. Esta ação não conta como uma Ação de Movimento. Esta porta da Cripta será fechada, e a outra porta da Cripta de mesma cor será aberta. Esta regra não se aplica quando o Agente está deixando a Zona de Cripta.
+Portas de Cripta não podem ser abertas como de costume. Ao invés, quando um Agente (ou grupo de Agentes) termina uma Ação de Movimento ou Etapa de Movimento em uma Zona contendo uma porta de Cripta aberta, imediatamente coloque o(s) Agente(s) na Cripta correspondente. Esta ação não conta como uma Ação de Movimento. Esta porta da Cripta será fechada, e a outra porta da Cripta de mesma cor será aberta. Esta regra não se aplica quando o Agente está deixando a Zona de Cripta.
 
 ### Quarta regra: o portal
 
 Quando um Agente termina uma Ação de Movimento em uma Zona contendo a ficha de Barreira Mágica #1, ele é teleportado para a Zona contendo a ficha de Barreira Mágica #2. Esta ação não conta como uma Ação de Movimento e apenas funciona de #1 para #2.
 
-#### Quinta regra: Fogo de Dragão
+### Quinta regra: Fogo de Dragão
 
 Um Agente sofre um efeito de Fogo de Dragão sempre que ele terminar uma Ação de Movimento em uma Zona contendo uma ficha de Fogo.

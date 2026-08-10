@@ -9,7 +9,7 @@ quest_minutes = 90
 
 *Nós estamos fora para explorar o que restou do distrito mais rico desta cidade, mas há enormes hordas de zumbis por todo o lugar. São zumbis demais para nós enfrentarmos, portanto, é melhor entrar e sair o mais silenciosamente possível, de preferência sem sermos vistos. Não será fácil...*
 
-> Materiais necessários: Zombicide: Black Plague
+> Materiais necessários: *Zombicide: Black Plague*
 
 > Mapas necessários: 4V, 5R, 7V & 8R
 
@@ -20,6 +20,7 @@ quest_minutes = 90
 - Tradução: Gustavo Lopes
 - [Ludopedia](https://ludopedia.com.br/jogo/zombicide-black-plague/anexos/130457)
 - [Fonte original](https://kairasensui.wordpress.com/2017/07/13/zombicide-black-plague-analise-e-missoes-extras/)
+- Edição e revisão: Neninja
 
 ## Objetivos
 **Explore.** Pegue todos os Objetivos.

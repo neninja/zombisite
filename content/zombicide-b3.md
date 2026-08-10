@@ -9,7 +9,7 @@ quest_minutes = 90
 
 *Recuperar a terra das mãos dos zumbis significa unir os sobreviventes ao nosso redor. Para isso, precisamos realizar uma ação ousada e simbólica. O Rei foi derrotado e provavelmente vaga por aí em busca de carne humana. Devemos recuperar a sua coroa. É um dever sagrado! E um objeto belíssimo...*
 
-> Materiais necessários: Zombicide: Black Plague e Zombicide: Wolfsburg
+> Materiais necessários: *Zombicide: Black Plague* e *Zombicide: Wolfsburg*
 
 > Mapas necessários: 3V, 4R, 5R, 6V, 9V & 11V.
 
@@ -20,6 +20,7 @@ quest_minutes = 90
 - Tradução: Neninja
 - Revisão: 
 - [Fonte original](https://www.zombicide.com/zombicide-fantasy-quests/)
+- Edição e revisão: Neninja
 
 ## Objetivos
 

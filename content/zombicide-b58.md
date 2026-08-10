@@ -11,7 +11,7 @@ quest_minutes = 60
 
 *Diz a lenda que a Masmorra da Fome guarda grandes tesouros e segredos há muito esquecidos. O Capitão Ardgeel entrou sozinho e não retornou. Não podemos permitir que a ganância dele o leve à ruína, pois verdadeiros amigos valorizam uns aos outros, apesar de suas falhas. Apressamo-nos em direção a esse lugar maligno, esperando que o capitão esteja a salvo em algum ponto lá dentro. Nenhum homem consegue suportar por muito tempo a aura malévola que emana de lá!*
 
-> Materiais necessários: Zombicide: Black Plague e Zombicide: Wolfsburg
+> Materiais necessários: Zombicide: *Black Plague* e *Zombicide: Wolfsburg*
 
 > Mapas necessários: 1V, 2V, 3R, 4R, 5V, 6V, 8R, & 10V.
 
@@ -20,8 +20,8 @@ quest_minutes = 60
 ## Créditos
 
 - Tradução: Neninja
-- Revisão: 
 - [Fonte original](https://www.zombicide.com/zombicide-fantasy-quests/)
+- Edição e revisão: Neninja
 
 ## Objectivos
 **Resgate o Capitão Ardgeel!** Encontre o Objetivo Verde e leve-o para a Zona da Cúpula Mágica.
