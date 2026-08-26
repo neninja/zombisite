@@ -41,7 +41,6 @@ Cada Objetivo concede 5 pontos de experiência para o Sobrevivente que o pegar. 
 
 As seis portas da mansão não podem ser abertas por meios comuns.
 
-
 ### Espíritos furiosos
 
 Sempre que um Objetivo for pego, role um dado: abra a porta da mansão localizada na área do mapa correspondente ao número, e sorteie Zumbis para a mansão inteira mesmo que Zumbis já tenham sido sorteados como resultado da abertura de outra porta. Zumbis dentro da mansão não se movem durante a Etapa de Movimento a menos que um Sobrevivente tenha entrado na mansão.

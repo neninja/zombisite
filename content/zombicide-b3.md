@@ -18,7 +18,6 @@ quest_minutes = 90
 ## Créditos
 
 - Tradução: Neninja
-- Revisão: 
 - [Fonte original](https://www.zombicide.com/zombicide-fantasy-quests/)
 - Edição e revisão: Neninja
 
